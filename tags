@@ -1,0 +1,659 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/cb842534/
+767px	assets/sass/breakpoints.scss	/^  @media screen and (max-width: 767px) {$/;"	t
+768px	assets/sass/breakpoints.scss	/^  @media screen and (min-width: 768px) {$/;"	t
+@nuxtjs/axios	package.json	/^    "@nuxtjs\/axios": "^5.3.6",$/;"	s	object:dependencies
+@nuxtjs/pwa	package.json	/^    "@nuxtjs\/pwa": "^2.6.0",$/;"	s	object:dependencies
+@rgrove/parse-xml	package.json	/^    "@rgrove\/parse-xml": "^2.0.0",$/;"	s	object:dependencies
+ASSETS	assets/README.md	/^# ASSETS$/;"	c
+Affixed	lib/markdown-parser.js	/^class Affixed {$/;"	c
+Affixing	lib/markdown-parser.js	/^class Affixing extends Section {$/;"	c
+Blueprint	lib/markdown-parser.js	/^class Blueprint {$/;"	c
+Build Setup	README.md	/^## Build Setup$/;"	s
+Clock	static/markdown/clock/clock.en.md	/^# Clock$/;"	c
+Clock	static/markdown/clock/clock.ru.md	/^# Clock$/;"	c
+Clock Manipulation	static/markdown/clock-manipulation.en.md	/^# Clock Manipulation$/;"	c
+Controls	static/markdown/clock/clock.en.md	/^### Controls$/;"	S
+Controls	static/markdown/divider/divider.en.md	/^### Controls$/;"	S
+Controls	static/markdown/fn-3/fn-3.en.md	/^### Controls$/;"	S
+Development History	static/markdown/fn-3/fn-3.en.md	/^## Development History$/;"	s
+Divider	static/markdown/divider/divider.en.md	/^# Divider$/;"	c
+Divider	static/markdown/divider/divider.ru.md	/^# Divider$/;"	c
+External Tempo Sources	static/markdown/clock/clock.en.md	/^## External Tempo Sources$/;"	s
+FN-3	static/markdown/fn-3/fn-3.en.md	/^# FN-3$/;"	c
+FN-3	static/markdown/fn-3/fn-3.ru.md	/^# FN-3$/;"	c
+Generators	static/markdown/generators.en.md	/^# Generators$/;"	c
+History	static/markdown/clock/clock.en.md	/^## History$/;"	s
+Indicators	static/markdown/clock/clock.en.md	/^### Indicators$/;"	S
+Indicators	static/markdown/divider/divider.en.md	/^### Indicators$/;"	S
+Indicators	static/markdown/fn-3/fn-3.en.md	/^### Indicators$/;"	S
+Inputs	static/markdown/clock/clock.en.md	/^### Inputs$/;"	S
+Inputs	static/markdown/divider/divider.en.md	/^### Inputs$/;"	S
+Inputs	static/markdown/fn-3/fn-3.en.md	/^### Inputs$/;"	S
+LAYOUTS	layouts/README.md	/^# LAYOUTS$/;"	c
+Legend	lib/markdown-parser.js	/^class Legend extends Section {$/;"	c
+LegendGroup	lib/markdown-parser.js	/^class LegendGroup extends Section {$/;"	c
+LegendList	lib/markdown-parser.js	/^class LegendList extends MarkdownSection {$/;"	c
+LegendListItem	lib/markdown-parser.js	/^class LegendListItem extends MarkdownSection {$/;"	c
+MIDDLEWARE	middleware/README.md	/^# MIDDLEWARE$/;"	c
+Main Panel	static/markdown/clock/clock.en.md	/^## Main Panel$/;"	s
+Main Panel	static/markdown/fn-3/fn-3.en.md	/^## Main Panel$/;"	s
+Main Purpose	static/markdown/divider/divider.en.md	/^## Main Purpose$/;"	s
+Main panel	static/markdown/divider/divider.en.md	/^## Main panel$/;"	s
+MarkdownParser	lib/markdown-parser.js	/^class MarkdownParser extends TokenScraper {$/;"	c
+MarkdownSection	lib/markdown-parser.js	/^class MarkdownSection extends Section {$/;"	c
+Outputs	static/markdown/clock/clock.en.md	/^### Outputs$/;"	S
+Outputs	static/markdown/divider/divider.en.md	/^### Outputs$/;"	S
+Outputs	static/markdown/fn-3/fn-3.en.md	/^### Outputs$/;"	S
+PAGES	pages/README.md	/^# PAGES$/;"	c
+PLUGINS	plugins/README.md	/^# PLUGINS$/;"	c
+Phase	static/markdown/clock/clock.en.md	/^## Phase$/;"	s
+Reverse	static/markdown/clock/clock.en.md	/^## Reverse$/;"	s
+STORE	store/README.md	/^# STORE$/;"	c
+Section	lib/markdown-parser.js	/^class Section extends TokenScraper {$/;"	c
+Sine	static/markdown/fn-3/fn-3.en.md	/^## Sine$/;"	s
+Speed Changes	static/markdown/clock/clock.en.md	/^### Speed Changes$/;"	S
+Square	static/markdown/fn-3/fn-3.en.md	/^## Square$/;"	s
+Swing	static/markdown/clock/clock.en.md	/^## Swing$/;"	s
+Swing	static/markdown/divider/divider.en.md	/^## Swing$/;"	s
+Synchronization: External Phase Source (PHASE)	static/markdown/clock/clock.en.md	/^### Synchronization: External Phase Source (PHASE)$/;"	S
+Synchronization: External Pulse Source (CLK)	static/markdown/clock/clock.en.md	/^### Synchronization: External Pulse Source (CLK)$/;"	S
+Synchronization: External Source of Clock and Phase (CLK + PHASE)	static/markdown/clock/clock.en.md	/^### Synchronization: External Source of Clock and Phase (CLK + PHASE)$/;"	S
+Synchronization: External Source of Volts per Beat per Second (V/BPS)	static/markdown/clock/clock.en.md	/^### Synchronization: External Source of Volts per Beat per Second (V\/BPS)$/;"	S
+TokenScraper	lib/markdown-parser.js	/^class TokenScraper {$/;"	c
+Triangle	static/markdown/fn-3/fn-3.en.md	/^## Triangle$/;"	s
+V/SPB	static/markdown/clock/clock.en.md	/^## V\/SPB$/;"	s
+V/SPB	static/markdown/clock/clock.ru.md	/^## V\/SPB$/;"	s
+ZZC Modules	static/markdown/index.en.md	/^# ZZC Modules$/;"	c
+author	package.json	/^  "author": "Sergey Ukolov",$/;"	s
+axios	nuxt.config.js	/^  axios: {$/;"	c	class:module.exports
+base	static/markdown/clock/zzc-clock-swing-dependency.svg	/^     inkscape:snap-global="false">$/;"	i
+base	static/markdown/clock/zzc-clock-swing.svg	/^     inkscape:snap-global="false">$/;"	i
+base	static/markdown/clock/zzc-phasor-reverse.svg	/^     inkscape:guide-bbox="true">$/;"	i
+base	static/markdown/clock/zzc-phasor-slowdown.svg	/^     inkscape:snap-global="true">$/;"	i
+base	static/markdown/clock/zzc-phasor.svg	/^     inkscape:guide-bbox="true">$/;"	i
+big-knob	lib/widget-rects.js	/^  'big-knob': {$/;"	c	class:widgetRects
+bpm-display	lib/widget-rects.js	/^  'bpm-display': {$/;"	c	class:widgetRects
+browserBaseURL	nuxt.config.js	/^    browserBaseURL: '\/'$/;"	p	class:module.exports.axios
+build	nuxt.config.js	/^  build: {$/;"	c	class:module.exports
+build	package.json	/^    "build": "nuxt build",$/;"	s	object:scripts
+build for production and launch server	README.md	/^# build for production and launch server$/;"	c
+categories	lib/categories.js	/^const categories = [$/;"	C
+center	assets/sass/utils.scss	/^@mixin center {$/;"	m
+collectTokens	lib/markdown-parser.js	/^  collectTokens (tokens) {$/;"	m	class:Section
+color	nuxt.config.js	/^  loading: { color: '#ffd42a' },$/;"	p	class:module.exports.loading
+color-fg	assets/sass/colors.scss	/^$color-fg: #202321;$/;"	v
+color-link	assets/sass/colors.scss	/^$color-link: #0048ff;$/;"	v
+color-zzc	assets/sass/colors.scss	/^$color-zzc: #ffd42a;$/;"	v
+constructor	lib/markdown-parser.js	/^  constructor (doc) {$/;"	m	class:Affixed
+constructor	lib/markdown-parser.js	/^  constructor (doc) {$/;"	m	class:Affixing
+constructor	lib/markdown-parser.js	/^  constructor (doc) {$/;"	m	class:Blueprint
+constructor	lib/markdown-parser.js	/^  constructor (doc) {$/;"	m	class:Legend
+constructor	lib/markdown-parser.js	/^  constructor (doc) {$/;"	m	class:LegendGroup
+constructor	lib/markdown-parser.js	/^  constructor (doc) {$/;"	m	class:Section
+constructor	lib/markdown-parser.js	/^  constructor (type) {$/;"	m	class:LegendList
+constructor	lib/markdown-parser.js	/^  constructor (type) {$/;"	m	class:LegendListItem
+constructor	lib/markdown-parser.js	/^  constructor (type) {$/;"	m	class:MarkdownSection
+consumeItem	lib/markdown-parser.js	/^  consumeItem (items, token) {$/;"	m	class:Legend
+consumeItem	lib/markdown-parser.js	/^  consumeItem (items, token) {$/;"	m	class:LegendListItem
+consumeItem	lib/markdown-parser.js	/^  consumeItem (items, token) {$/;"	m	class:TokenScraper
+container	assets/sass/test.scss	/^.container {$/;"	c
+cross-env	package.json	/^    "cross-env": "^5.2.0",$/;"	s	object:dependencies
+cross-knob	lib/widget-rects.js	/^  'cross-knob': {$/;"	c	class:widgetRects
+css	nuxt.config.js	/^  css: [$/;"	p	class:module.exports
+defs2	static/markdown/clock/zzc-clock-swing-dependency.svg	/^     id="defs2" \/>$/;"	i
+defs2	static/markdown/clock/zzc-clock-swing.svg	/^     id="defs2" \/>$/;"	i
+defs2	static/markdown/clock/zzc-phasor-reverse.svg	/^     id="defs2" \/>$/;"	i
+defs2	static/markdown/clock/zzc-phasor-slowdown.svg	/^     id="defs2" \/>$/;"	i
+defs2	static/markdown/clock/zzc-phasor.svg	/^     id="defs2" \/>$/;"	i
+dependencies	package.json	/^  "dependencies": {$/;"	o
+description	package.json	/^  "description": "ZZC Modules Documentation",$/;"	s
+dev	package.json	/^    "dev": "HOST=0.0.0.0 nuxt",$/;"	s	object:scripts
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+display-switch	lib/widget-rects.js	/^  'display-switch': {$/;"	c	class:widgetRects
+exports	nuxt.config.js	/^module.exports = {$/;"	c	class:module
+extend	nuxt.config.js	/^    extend(config, ctx) {$/;"	m	class:module.exports.build
+filter10059	static/markdown/clock/clock.svg	/^  <filter id="filter10059" x="-.1392" y="-.1392" width="1.278" height="1.278" color-interpolatio/;"	i
+filter10059	static/markdown/divider/divider.svg	/^  <filter id="filter10059" x="-.1392" y="-.1392" width="1.278" height="1.278" color-interpolatio/;"	i
+filter10059	static/markdown/fn-3/fn-3.svg	/^  <filter id="filter10059" x="-.1392" y="-.1392" width="1.278" height="1.278" color-interpolatio/;"	i
+filter1764	static/markdown/clock/clock.svg	/^  <filter id="filter1764" x="-.15" y="-.15" width="1.3" height="1.3" color-interpolation-filters/;"	i
+filter2706	static/markdown/clock/clock.svg	/^  <filter id="filter2706" x="-.228" y="-.228" width="1.456" height="1.456" color-interpolation-f/;"	i
+filter2706	static/markdown/fn-3/fn-3.svg	/^  <filter id="filter2706" x="-.228" y="-.228" width="1.456" height="1.456" color-interpolation-f/;"	i
+filter2706-3	static/markdown/divider/divider.svg	/^  <filter id="filter2706-3" x="-.228" y="-.228" width="1.456" height="1.456" color-interpolation/;"	i
+filter2706-4	static/markdown/fn-3/fn-3.svg	/^  <filter id="filter2706-4" x="-.228" y="-.228" width="1.456" height="1.456" color-interpolation/;"	i
+filter6065	static/markdown/divider/divider.svg	/^  <filter id="filter6065" x="-.1152" y="-.1152" width="1.23" height="1.23" color-interpolation-f/;"	i
+filter8953	static/markdown/divider/divider.svg	/^  <filter id="filter8953" x="-.2388" y="-.2388" width="1.478" height="1.478" color-interpolation/;"	i
+filter8953	static/markdown/fn-3/fn-3.svg	/^  <filter id="filter8953" x="-.2388" y="-.2388" width="1.478" height="1.478" color-interpolation/;"	i
+fn-3-display	lib/widget-rects.js	/^  'fn-3-display': {$/;"	c	class:widgetRects
+fs	test.js	/^const fs = require('fs')$/;"	C
+generate	package.json	/^    "generate": "nuxt generate"$/;"	s	object:scripts
+generate static project	README.md	/^# generate static project$/;"	c
+grid815	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       empopacity="0.29019608" \/>$/;"	i
+grid815	static/markdown/clock/zzc-clock-swing.svg	/^       empopacity="0.29019608" \/>$/;"	i
+grid815	static/markdown/clock/zzc-phasor-reverse.svg	/^       empopacity="0.29019608" \/>$/;"	i
+grid815	static/markdown/clock/zzc-phasor-slowdown.svg	/^       empopacity="0.29019608" \/>$/;"	i
+grid815	static/markdown/clock/zzc-phasor.svg	/^       empopacity="0.29019608" \/>$/;"	i
+guide837	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide837	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide837	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide847	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide847	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide847	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide853	static/markdown/clock/zzc-phasor-slowdown.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide857	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide857	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide857	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide859	static/markdown/clock/zzc-phasor-slowdown.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide861	static/markdown/clock/zzc-phasor-slowdown.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide877	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide877	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide877	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide877	static/markdown/clock/zzc-phasor.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide879	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide879	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide879	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide879	static/markdown/clock/zzc-phasor-slowdown.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide879	static/markdown/clock/zzc-phasor.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide898	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:locked="false" \/>$/;"	i
+guide898	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:locked="false" \/>$/;"	i
+head	nuxt.config.js	/^  head: {$/;"	c	class:module.exports
+height	lib/widget-rects.js	/^    height: 13,$/;"	p	class:widgetRects.medium-led
+height	lib/widget-rects.js	/^    height: 20,$/;"	p	class:widgetRects.fn-3-display
+height	lib/widget-rects.js	/^    height: 26,$/;"	p	class:widgetRects.bpm-display
+height	lib/widget-rects.js	/^    height: 26,$/;"	p	class:widgetRects.display-switch
+height	lib/widget-rects.js	/^    height: 26,$/;"	p	class:widgetRects.ratio-display
+height	lib/widget-rects.js	/^    height: 31,$/;"	p	class:widgetRects.simple-socket
+height	lib/widget-rects.js	/^    height: 36,$/;"	p	class:widgetRects.knob-25
+height	lib/widget-rects.js	/^    height: 40,$/;"	p	class:widgetRects.knob-27
+height	lib/widget-rects.js	/^    height: 41,$/;"	p	class:widgetRects.labeled-led-switch
+height	lib/widget-rects.js	/^    height: 43,$/;"	p	class:widgetRects.labeled-socket
+height	lib/widget-rects.js	/^    height: 50,$/;"	p	class:widgetRects.cross-knob
+height	lib/widget-rects.js	/^    height: 80,$/;"	p	class:widgetRects.big-knob
+host	nuxt.config.js	/^    host: '0.0.0.0'$/;"	p	class:module.exports.server
+install dependencies	README.md	/^# install dependencies$/;"	c
+isZzcDoc	lib/markdown-parser.js	/^function isZzcDoc (token) {$/;"	f
+knob-25	lib/widget-rects.js	/^  'knob-25': {$/;"	c	class:widgetRects
+knob-27	lib/widget-rects.js	/^  'knob-27': {$/;"	c	class:widgetRects
+labeled-led-switch	lib/widget-rects.js	/^  'labeled-led-switch': {$/;"	c	class:widgetRects
+labeled-socket	lib/widget-rects.js	/^  'labeled-socket': {$/;"	c	class:widgetRects
+layer1	static/markdown/clock/zzc-clock-swing-dependency.svg	/^     transform="translate(0,-451.49998)">$/;"	i
+layer1	static/markdown/clock/zzc-clock-swing.svg	/^     transform="translate(0,-476.49998)">$/;"	i
+layer1	static/markdown/clock/zzc-phasor-reverse.svg	/^     transform="translate(0,-676.49998)">$/;"	i
+layer1	static/markdown/clock/zzc-phasor-slowdown.svg	/^     transform="translate(0,-676.49998)">$/;"	i
+layer1	static/markdown/clock/zzc-phasor.svg	/^     transform="translate(0,-586.49998)">$/;"	i
+linearGradient1868	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient1868" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient1870	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient1870" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient1872	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient1872" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient1874	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient1874" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient1925	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient1925">$/;"	i
+linearGradient1925	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient1925">$/;"	i
+linearGradient2078	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient2078" x1="74.85" x2="74.85" y1="78.42" y2="77.7" gradientTra/;"	i
+linearGradient2431	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient2431" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient2433	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient2433" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient2435	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient2435" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient2437	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient2437" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient2626	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2626" x1="77.6" x2="77.6" y1="90.52" y2="77.75" gradientTran/;"	i
+linearGradient2630	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2630" x1="74.85" x2="74.85" y1="78.42" y2="77.7" gradientTra/;"	i
+linearGradient2714	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2714">$/;"	i
+linearGradient2905	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2905" x1="74.85" x2="74.85" y1="78.42" y2="77.7" gradientTra/;"	i
+linearGradient2935	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2935" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient2937	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2937" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient2939	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2939" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient2941	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2941" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient2971	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2971" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient2973	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2973" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient2975	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2975" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient2977	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient2977" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3007	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3007" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3009	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3009" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3011	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3011" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3013	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3013" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3043	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3043" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3045	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3045" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3047	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3047" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3049	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3049" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3079	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3079" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3081	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3081" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3083	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3083" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3085	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3085" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3115	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3115" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3117	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3117" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3119	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3119" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3121	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3121" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3151	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3151" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3153	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3153" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3155	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3155" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3157	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3157" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3187	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3187" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3189	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3189" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3191	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3191" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3193	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3193" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3223	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3223" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3225	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3225" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3227	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3227" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3229	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3229" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3259	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3259" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3261	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3261" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3263	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3263" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3265	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3265" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3295	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3295" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3297	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3297" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3299	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3299" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3301	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3301" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3331	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3331" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3333	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3333" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3335	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3335" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3337	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3337" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3367	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3367" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3369	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3369" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3371	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3371" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3373	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3373" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3403	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3403" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3405	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3405" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3407	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3407" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3409	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3409" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient3439	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3439" x1="1178" x2="1178" y1="111.3" y2="86.17" gradientTran/;"	i
+linearGradient3441	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3441" x1="1186" x2="1186" y1="105.3" y2="91.53" gradientTran/;"	i
+linearGradient3443	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3443" x1="1181" x2="1181" y1="109.5" y2="86.81" gradientTran/;"	i
+linearGradient3445	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient3445" x1="1183" x2="1183" y1="90.83" y2="106.1" gradientTran/;"	i
+linearGradient6187	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient6187">$/;"	i
+linearGradient6375	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient6375" x1="74.85" x2="74.85" y1="78.42" y2="77.7" gradientTra/;"	i
+linearGradient6520	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient6520" x1="74.85" x2="74.85" y1="78.42" y2="77.7" gradientTra/;"	i
+linearGradient7688	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient7688">$/;"	i
+linearGradient7688	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient7688">$/;"	i
+linearGradient7688-7	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient7688-7">$/;"	i
+linearGradient7712	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient7712">$/;"	i
+linearGradient7712	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient7712">$/;"	i
+linearGradient7712	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient7712">$/;"	i
+linearGradient7730	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient7730">$/;"	i
+linearGradient7730	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient7730">$/;"	i
+linearGradient7730	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient7730">$/;"	i
+linearGradient8327	static/markdown/clock/clock.svg	/^  <linearGradient id="linearGradient8327">$/;"	i
+linearGradient8327	static/markdown/divider/divider.svg	/^  <linearGradient id="linearGradient8327">$/;"	i
+linearGradient8327	static/markdown/fn-3/fn-3.svg	/^  <linearGradient id="linearGradient8327">$/;"	i
+link	nuxt.config.js	/^    link: [$/;"	p	class:module.exports.head
+loading	nuxt.config.js	/^  loading: { color: '#ffd42a' },$/;"	c	class:module.exports
+makeGroupItemSlug	lib/shared.js	/^export function makeGroupItemSlug (item, group) {$/;"	f
+marked	package.json	/^    "marked": "^0.6.1",$/;"	s	object:dependencies
+marked	test.js	/^const marked = require('marked')$/;"	C
+medium-led	lib/widget-rects.js	/^  'medium-led': {$/;"	c	class:widgetRects
+meta	nuxt.config.js	/^    meta: [$/;"	p	class:module.exports.head
+metadata5	static/markdown/clock/zzc-clock-swing-dependency.svg	/^     id="metadata5">$/;"	i
+metadata5	static/markdown/clock/zzc-clock-swing.svg	/^     id="metadata5">$/;"	i
+metadata5	static/markdown/clock/zzc-phasor-reverse.svg	/^     id="metadata5">$/;"	i
+metadata5	static/markdown/clock/zzc-phasor-slowdown.svg	/^     id="metadata5">$/;"	i
+metadata5	static/markdown/clock/zzc-phasor.svg	/^     id="metadata5">$/;"	i
+mode	nuxt.config.js	/^  mode: 'universal',$/;"	p	class:module.exports
+modules	lib/modules.js	/^const modules = [$/;"	C
+modules	nuxt.config.js	/^  modules: [$/;"	p	class:module.exports
+name	package.json	/^  "name": "zzc-docs",$/;"	s
+node-sass	package.json	/^    "node-sass": "^4.11.0",$/;"	s	object:dependencies
+nodemon	package.json	/^    "nodemon": "^1.18.9"$/;"	s	object:devDependencies
+normalize.css	package.json	/^    "normalize.css": "^8.0.1",$/;"	s	object:dependencies
+nuxt	package.json	/^    "nuxt": "^2.4.0",$/;"	s	object:dependencies
+nuxt-i18n	package.json	/^    "nuxt-i18n": "^5.8.5",$/;"	s	object:dependencies
+nuxt-svg	package.json	/^    "nuxt-svg": "^0.1.4",$/;"	s	object:dependencies
+parse	lib/markdown-parser.js	/^  parse (markdown) {$/;"	m	class:MarkdownParser
+parseZzcDoc	lib/markdown-parser.js	/^function parseZzcDoc (text) {$/;"	f
+path1001	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1001" \/>$/;"	i
+path1003	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1003" \/>$/;"	i
+path1005	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1005" \/>$/;"	i
+path1007	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1007" \/>$/;"	i
+path1009	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1009" \/>$/;"	i
+path1012	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1012" \/>$/;"	i
+path1014	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1014" \/>$/;"	i
+path1016	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1016" \/>$/;"	i
+path1018	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1018" \/>$/;"	i
+path1020	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1020" \/>$/;"	i
+path1023	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1023" \/>$/;"	i
+path1025	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1025" \/>$/;"	i
+path1027	static/markdown/clock/zzc-clock-swing.svg	/^         id="path1027" \/>$/;"	i
+path1051	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1053	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1055	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1057	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1059	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1061	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1063	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1065	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1067	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1073	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1081	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1083	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1085	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1087	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1089	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1097	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1099	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1101	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1103	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1105	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1107	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1109	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1111	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1113	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1115	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path1117	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1119	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1121	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1123	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1125	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1127	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1129	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1131	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#9955ff;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path1133	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path1141	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1141" \/>$/;"	i
+path1143	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1143" \/>$/;"	i
+path1145	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1145" \/>$/;"	i
+path1147	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1147" \/>$/;"	i
+path1149	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1149" \/>$/;"	i
+path1152	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1152" \/>$/;"	i
+path1154	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1154" \/>$/;"	i
+path1156	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1156" \/>$/;"	i
+path1158	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1158" \/>$/;"	i
+path1160	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1160" \/>$/;"	i
+path1163	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1163" \/>$/;"	i
+path1165	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1165" \/>$/;"	i
+path1167	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1167" \/>$/;"	i
+path1169	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1169" \/>$/;"	i
+path1171	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1171" \/>$/;"	i
+path1174	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1174" \/>$/;"	i
+path1176	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1176" \/>$/;"	i
+path1178	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1178" \/>$/;"	i
+path1180	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1180" \/>$/;"	i
+path1182	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1182" \/>$/;"	i
+path1185	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1185" \/>$/;"	i
+path1187	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1187" \/>$/;"	i
+path1189	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         id="path1189" \/>$/;"	i
+path815	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path815	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path815	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path815	static/markdown/clock/zzc-phasor-slowdown.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path815	static/markdown/clock/zzc-phasor.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path817	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path817	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path817	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path817	static/markdown/clock/zzc-phasor-slowdown.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path817	static/markdown/clock/zzc-phasor.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path819	static/markdown/clock/zzc-phasor-reverse.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path819	static/markdown/clock/zzc-phasor-slowdown.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path819	static/markdown/clock/zzc-phasor.svg	/^       style="fill:none;stroke:#808080;stroke-width:1.29999995;stroke-linecap:round;stroke-linej/;"	i
+path821	static/markdown/clock/zzc-phasor-reverse.svg	/^       style="fill:none;stroke:#808080;stroke-width:1.29999995;stroke-linecap:round;stroke-linej/;"	i
+path821	static/markdown/clock/zzc-phasor-slowdown.svg	/^       style="fill:none;stroke:#808080;stroke-width:1.29999995;stroke-linecap:round;stroke-linej/;"	i
+path821	static/markdown/clock/zzc-phasor.svg	/^       style="fill:none;stroke:#808080;stroke-width:1.29999995;stroke-linecap:round;stroke-linej/;"	i
+path839	static/markdown/clock/zzc-phasor-reverse.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path841	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path841	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path841	static/markdown/clock/zzc-phasor-reverse.svg	/^       style="fill:none;stroke:#37c871;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejo/;"	i
+path843	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path843	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path843	static/markdown/clock/zzc-phasor-reverse.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path845	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path845	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path845	static/markdown/clock/zzc-phasor-reverse.svg	/^       sodipodi:nodetypes="cccc" \/>$/;"	i
+path847	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path847	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path849	static/markdown/clock/zzc-phasor-reverse.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path851	static/markdown/clock/zzc-phasor-reverse.svg	/^       style="fill:none;stroke:#37c871;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejo/;"	i
+path853	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path853	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path853	static/markdown/clock/zzc-phasor-reverse.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path855	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="opacity:0.5;fill:none;stroke:#808080;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path855	static/markdown/clock/zzc-clock-swing.svg	/^       style="opacity:0.5;fill:none;stroke:#ff2a2a;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path855	static/markdown/clock/zzc-phasor-reverse.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path855	static/markdown/clock/zzc-phasor-slowdown.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path857	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path857	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path857	static/markdown/clock/zzc-phasor-slowdown.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path859	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="opacity:0.5;fill:none;stroke:#808080;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path859	static/markdown/clock/zzc-clock-swing.svg	/^       style="opacity:0.5;fill:none;stroke:#ff2a2a;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path861	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path861	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path863	static/markdown/clock/zzc-phasor-slowdown.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path865	static/markdown/clock/zzc-phasor-slowdown.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path873	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path873	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path873	static/markdown/clock/zzc-phasor-reverse.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path873	static/markdown/clock/zzc-phasor-slowdown.svg	/^       sodipodi:nodetypes="ccccc" \/>$/;"	i
+path873	static/markdown/clock/zzc-phasor.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path874	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path874	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path881	static/markdown/clock/zzc-phasor-reverse.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path881	static/markdown/clock/zzc-phasor-slowdown.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path881	static/markdown/clock/zzc-phasor.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path883	static/markdown/clock/zzc-phasor.svg	/^       style="fill:none;stroke:#ff2a2a;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path885	static/markdown/clock/zzc-phasor.svg	/^       style="fill:none;stroke:#37c871;stroke-width:1.60000002;stroke-linecap:butt;stroke-linejo/;"	i
+path887	static/markdown/clock/zzc-phasor.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path889	static/markdown/clock/zzc-phasor.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path891	static/markdown/clock/zzc-phasor.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path893	static/markdown/clock/zzc-phasor.svg	/^       sodipodi:nodetypes="cc" \/>$/;"	i
+path902	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path902	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path904	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path904	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path906	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path906	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path907	static/markdown/clock/zzc-phasor.svg	/^         id="path907" \/>$/;"	i
+path908	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path908	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path909	static/markdown/clock/zzc-phasor.svg	/^         id="path909" \/>$/;"	i
+path911	static/markdown/clock/zzc-phasor.svg	/^         id="path911" \/>$/;"	i
+path913	static/markdown/clock/zzc-phasor.svg	/^         id="path913" \/>$/;"	i
+path916	static/markdown/clock/zzc-phasor-reverse.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path916	static/markdown/clock/zzc-phasor-slowdown.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path916	static/markdown/clock/zzc-phasor.svg	/^         id="path916" \/>$/;"	i
+path918	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path918	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path918	static/markdown/clock/zzc-phasor-reverse.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path918	static/markdown/clock/zzc-phasor-slowdown.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path918	static/markdown/clock/zzc-phasor.svg	/^         id="path918" \/>$/;"	i
+path921	static/markdown/clock/zzc-phasor-reverse.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path921	static/markdown/clock/zzc-phasor-slowdown.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path921	static/markdown/clock/zzc-phasor.svg	/^         id="path921" \/>$/;"	i
+path923	static/markdown/clock/zzc-phasor-reverse.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path923	static/markdown/clock/zzc-phasor-slowdown.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path923	static/markdown/clock/zzc-phasor.svg	/^         id="path923" \/>$/;"	i
+path925	static/markdown/clock/zzc-phasor-reverse.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path925	static/markdown/clock/zzc-phasor-slowdown.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path925	static/markdown/clock/zzc-phasor.svg	/^         id="path925" \/>$/;"	i
+path926	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path928	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path928	static/markdown/clock/zzc-phasor.svg	/^         id="path928" \/>$/;"	i
+path930	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path930	static/markdown/clock/zzc-phasor.svg	/^         id="path930" \/>$/;"	i
+path932	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path932	static/markdown/clock/zzc-phasor.svg	/^         id="path932" \/>$/;"	i
+path934	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path934	static/markdown/clock/zzc-phasor.svg	/^         id="path934" \/>$/;"	i
+path936	static/markdown/clock/zzc-phasor.svg	/^         id="path936" \/>$/;"	i
+path939	static/markdown/clock/zzc-phasor.svg	/^         id="path939" \/>$/;"	i
+path941	static/markdown/clock/zzc-phasor.svg	/^         id="path941" \/>$/;"	i
+path942	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path943	static/markdown/clock/zzc-phasor.svg	/^         id="path943" \/>$/;"	i
+path944	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path945	static/markdown/clock/zzc-phasor.svg	/^         id="path945" \/>$/;"	i
+path946	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path947	static/markdown/clock/zzc-phasor.svg	/^         id="path947" \/>$/;"	i
+path948	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path950	static/markdown/clock/zzc-clock-swing-dependency.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path950	static/markdown/clock/zzc-clock-swing.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path950	static/markdown/clock/zzc-phasor-reverse.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path950	static/markdown/clock/zzc-phasor-slowdown.svg	/^         inkscape:connector-curvature="0" \/>$/;"	i
+path950	static/markdown/clock/zzc-phasor.svg	/^         id="path950" \/>$/;"	i
+path951	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path959	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path961	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path963	static/markdown/clock/zzc-clock-swing.svg	/^       style="fill:none;stroke:#5fbcd3;stroke-width:1.70000005;stroke-linecap:butt;stroke-linejo/;"	i
+path965	static/markdown/clock/zzc-clock-swing.svg	/^       sodipodi:nodetypes="ccccccccc" \/>$/;"	i
+path969	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="opacity:0.5;fill:none;stroke:#808080;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path969	static/markdown/clock/zzc-clock-swing.svg	/^       style="opacity:0.5;fill:none;stroke:#ff2a2a;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path971	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path971	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path973	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="opacity:0.5;fill:none;stroke:#808080;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path973	static/markdown/clock/zzc-clock-swing.svg	/^       style="opacity:0.5;fill:none;stroke:#ff2a2a;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path975	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path975	static/markdown/clock/zzc-clock-swing.svg	/^       inkscape:connector-curvature="0" \/>$/;"	i
+path977	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       style="opacity:0.5;fill:none;stroke:#808080;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path977	static/markdown/clock/zzc-clock-swing.svg	/^       style="opacity:0.5;fill:none;stroke:#ff2a2a;stroke-width:1px;stroke-linecap:butt;stroke-l/;"	i
+path979	static/markdown/clock/zzc-clock-swing.svg	/^         id="path979" \/>$/;"	i
+path981	static/markdown/clock/zzc-clock-swing.svg	/^         id="path981" \/>$/;"	i
+path983	static/markdown/clock/zzc-clock-swing.svg	/^         id="path983" \/>$/;"	i
+path985	static/markdown/clock/zzc-clock-swing.svg	/^         id="path985" \/>$/;"	i
+path987	static/markdown/clock/zzc-clock-swing.svg	/^         id="path987" \/>$/;"	i
+path990	static/markdown/clock/zzc-clock-swing.svg	/^         id="path990" \/>$/;"	i
+path992	static/markdown/clock/zzc-clock-swing.svg	/^         id="path992" \/>$/;"	i
+path994	static/markdown/clock/zzc-clock-swing.svg	/^         id="path994" \/>$/;"	i
+path996	static/markdown/clock/zzc-clock-swing.svg	/^         id="path996" \/>$/;"	i
+path998	static/markdown/clock/zzc-clock-swing.svg	/^         id="path998" \/>$/;"	i
+phone	assets/sass/breakpoints.scss	/^@mixin phone {$/;"	m
+pkg	nuxt.config.js	/^const pkg = require('.\/package')$/;"	C
+plugins	nuxt.config.js	/^  plugins: [$/;"	p	class:module.exports
+position	nuxt.config.js	/^        position = { selector: to.hash }$/;"	c	class:module.exports.router.scrollBehavior
+position	nuxt.config.js	/^        position = { x: 0, y: 0 }$/;"	c	class:module.exports.router.scrollBehavior
+private	package.json	/^  "private": true,$/;"	b
+pug	package.json	/^    "pug": "^2.0.3",$/;"	s	object:dependencies
+pug-plain-loader	package.json	/^    "pug-plain-loader": "^1.0.0",$/;"	s	object:dependencies
+radialGradient2628	static/markdown/clock/clock.svg	/^  <radialGradient id="radialGradient2628" cx="27" cy="197.6" r="13.25" gradientTransform="matrix/;"	i
+radialGradient2903	static/markdown/clock/clock.svg	/^  <radialGradient id="radialGradient2903" cx="27" cy="197.6" r="13.25" gradientTransform="matrix/;"	i
+radialGradient2922	static/markdown/divider/divider.svg	/^  <radialGradient id="radialGradient2922" cx="337" cy="68.44" r="15.5" gradientTransform="matrix/;"	i
+radialGradient2954	static/markdown/divider/divider.svg	/^  <radialGradient id="radialGradient2954" cx="337" cy="68.44" r="15.5" gradientTransform="matrix/;"	i
+radialGradient6433	static/markdown/fn-3/fn-3.svg	/^  <radialGradient id="radialGradient6433" cx="27" cy="197.6" r="13.25" gradientTransform="matrix/;"	i
+radius	lib/widget-rects.js	/^    radius: '3px'$/;"	p	class:widgetRects.bpm-display
+radius	lib/widget-rects.js	/^    radius: '3px'$/;"	p	class:widgetRects.display-switch
+radius	lib/widget-rects.js	/^    radius: '3px'$/;"	p	class:widgetRects.fn-3-display
+radius	lib/widget-rects.js	/^    radius: '3px'$/;"	p	class:widgetRects.labeled-led-switch
+radius	lib/widget-rects.js	/^    radius: '3px'$/;"	p	class:widgetRects.labeled-socket
+radius	lib/widget-rects.js	/^    radius: '3px'$/;"	p	class:widgetRects.ratio-display
+radius	lib/widget-rects.js	/^    radius: '3px'$/;"	p	class:widgetRects.simple-socket
+radius	lib/widget-rects.js	/^    radius: '50%'$/;"	p	class:widgetRects.big-knob
+radius	lib/widget-rects.js	/^    radius: '50%'$/;"	p	class:widgetRects.cross-knob
+radius	lib/widget-rects.js	/^    radius: '50%'$/;"	p	class:widgetRects.knob-25
+radius	lib/widget-rects.js	/^    radius: '50%'$/;"	p	class:widgetRects.knob-27
+radius	lib/widget-rects.js	/^    radius: '50%'$/;"	p	class:widgetRects.medium-led
+ratio-display	lib/widget-rects.js	/^  'ratio-display': {$/;"	c	class:widgetRects
+router	nuxt.config.js	/^  router: {$/;"	c	class:module.exports
+sass-loader	package.json	/^    "sass-loader": "^7.1.0",$/;"	s	object:dependencies
+scrapeTokens	lib/markdown-parser.js	/^  scrapeTokens (tokens, items, haltFunc) {$/;"	m	class:TokenScraper
+screen	assets/sass/breakpoints.scss	/^  @media screen and (max-width: 767px) {$/;"	d
+screen	assets/sass/breakpoints.scss	/^  @media screen and (min-width: 768px) {$/;"	d
+scripts	package.json	/^  "scripts": {$/;"	o
+scrollBehavior	nuxt.config.js	/^    scrollBehavior: function (to, from, savedPosition) {$/;"	m	class:module.exports.router
+sectionFactory	lib/markdown-parser.js	/^  sectionFactory (token) {$/;"	m	class:Legend
+sectionFactory	lib/markdown-parser.js	/^  sectionFactory (token) {$/;"	m	class:LegendGroup
+sectionFactory	lib/markdown-parser.js	/^  sectionFactory (token) {$/;"	m	class:LegendList
+sectionFactory	lib/markdown-parser.js	/^function sectionFactory (token) {$/;"	f
+selector	nuxt.config.js	/^        position = { selector: to.hash }$/;"	p	class:module.exports.router.scrollBehavior.position
+serve with hot reload at localhost:3000	README.md	/^# serve with hot reload at localhost:3000$/;"	c
+server	nuxt.config.js	/^  server: {$/;"	c	class:module.exports
+simple-socket	lib/widget-rects.js	/^  'simple-socket': {$/;"	c	class:widgetRects
+start	package.json	/^    "start": "nuxt start",$/;"	s	object:scripts
+stretch	assets/sass/utils.scss	/^@mixin stretch {$/;"	m
+tablet	assets/sass/breakpoints.scss	/^@mixin tablet {$/;"	m
+text	assets/lorem-ipsum.json	/^  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales velit sapien/;"	s
+text1079	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       id="text1079">$/;"	i
+text1095	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       id="text1095">$/;"	i
+text825	static/markdown/clock/zzc-phasor-reverse.svg	/^       transform="translate(0,94)">$/;"	i
+text825	static/markdown/clock/zzc-phasor-slowdown.svg	/^       transform="translate(0,94)">$/;"	i
+text825	static/markdown/clock/zzc-phasor.svg	/^       id="text825">$/;"	i
+text829	static/markdown/clock/zzc-phasor-reverse.svg	/^       transform="translate(0,94)">$/;"	i
+text829	static/markdown/clock/zzc-phasor-slowdown.svg	/^       transform="translate(0,94)">$/;"	i
+text829	static/markdown/clock/zzc-phasor.svg	/^       id="text829">$/;"	i
+text833	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       transform="translate(0,-240.86027)">$/;"	i
+text833	static/markdown/clock/zzc-clock-swing.svg	/^       transform="translate(0,-213.86027)">$/;"	i
+text833	static/markdown/clock/zzc-phasor-reverse.svg	/^       transform="translate(0,46)">$/;"	i
+text833	static/markdown/clock/zzc-phasor-slowdown.svg	/^       transform="translate(0,46)">$/;"	i
+text833	static/markdown/clock/zzc-phasor.svg	/^       id="text833">$/;"	i
+text851	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       id="text851">$/;"	i
+text851	static/markdown/clock/zzc-clock-swing.svg	/^       id="text851">$/;"	i
+text886	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       id="text886">$/;"	i
+text886	static/markdown/clock/zzc-clock-swing.svg	/^       id="text886">$/;"	i
+text897	static/markdown/clock/zzc-phasor.svg	/^       id="text897">$/;"	i
+text901	static/markdown/clock/zzc-phasor.svg	/^       id="text901">$/;"	i
+text905	static/markdown/clock/zzc-phasor.svg	/^       id="text905">$/;"	i
+text924	static/markdown/clock/zzc-clock-swing-dependency.svg	/^       id="text924">$/;"	i
+text924	static/markdown/clock/zzc-clock-swing.svg	/^       id="text924">$/;"	i
+text940	static/markdown/clock/zzc-clock-swing.svg	/^       id="text940">$/;"	i
+text957	static/markdown/clock/zzc-clock-swing.svg	/^       id="text957">$/;"	i
+title	nuxt.config.js	/^    title: 'ZZC',$/;"	p	class:module.exports.head
+version	package.json	/^  "version": "1.0.0",$/;"	s
+vue	package.json	/^    "vue": "^2.6.10",$/;"	s	object:dependencies
+vue-template-compiler	package.json	/^    "vue-template-compiler": "^2.6.10"$/;"	s	object:dependencies
+widgetRects	lib/widget-rects.js	/^const widgetRects = {$/;"	c
+width	lib/widget-rects.js	/^    width: 13,$/;"	p	class:widgetRects.medium-led
+width	lib/widget-rects.js	/^    width: 28,$/;"	p	class:widgetRects.labeled-led-switch
+width	lib/widget-rects.js	/^    width: 29,$/;"	p	class:widgetRects.fn-3-display
+width	lib/widget-rects.js	/^    width: 30,$/;"	p	class:widgetRects.labeled-socket
+width	lib/widget-rects.js	/^    width: 30,$/;"	p	class:widgetRects.simple-socket
+width	lib/widget-rects.js	/^    width: 31,$/;"	p	class:widgetRects.display-switch
+width	lib/widget-rects.js	/^    width: 36,$/;"	p	class:widgetRects.knob-25
+width	lib/widget-rects.js	/^    width: 40,$/;"	p	class:widgetRects.knob-27
+width	lib/widget-rects.js	/^    width: 50,$/;"	p	class:widgetRects.cross-knob
+width	lib/widget-rects.js	/^    width: 64,$/;"	p	class:widgetRects.bpm-display
+width	lib/widget-rects.js	/^    width: 64,$/;"	p	class:widgetRects.ratio-display
+width	lib/widget-rects.js	/^    width: 80,$/;"	p	class:widgetRects.big-knob
+x	lib/widget-rects.js	/^    x: -0,$/;"	p	class:widgetRects.cross-knob
+x	lib/widget-rects.js	/^    x: -1,$/;"	p	class:widgetRects.display-switch
+x	lib/widget-rects.js	/^    x: -2,$/;"	p	class:widgetRects.labeled-socket
+x	lib/widget-rects.js	/^    x: -2,$/;"	p	class:widgetRects.simple-socket
+x	lib/widget-rects.js	/^    x: -2.5,$/;"	p	class:widgetRects.medium-led
+x	lib/widget-rects.js	/^    x: -3,$/;"	p	class:widgetRects.bpm-display
+x	lib/widget-rects.js	/^    x: -3,$/;"	p	class:widgetRects.labeled-led-switch
+x	lib/widget-rects.js	/^    x: -3,$/;"	p	class:widgetRects.ratio-display
+x	lib/widget-rects.js	/^    x: -5,$/;"	p	class:widgetRects.knob-25
+x	lib/widget-rects.js	/^    x: -6,$/;"	p	class:widgetRects.big-knob
+x	lib/widget-rects.js	/^    x: -6,$/;"	p	class:widgetRects.knob-27
+x	lib/widget-rects.js	/^    x: 0,$/;"	p	class:widgetRects.fn-3-display
+x	nuxt.config.js	/^        position = { x: 0, y: 0 }$/;"	p	class:module.exports.router.scrollBehavior.position
+y	lib/widget-rects.js	/^    y: -0,$/;"	p	class:widgetRects.cross-knob
+y	lib/widget-rects.js	/^    y: -1,$/;"	p	class:widgetRects.display-switch
+y	lib/widget-rects.js	/^    y: -15,$/;"	p	class:widgetRects.labeled-socket
+y	lib/widget-rects.js	/^    y: -16,$/;"	p	class:widgetRects.labeled-led-switch
+y	lib/widget-rects.js	/^    y: -3,$/;"	p	class:widgetRects.bpm-display
+y	lib/widget-rects.js	/^    y: -3,$/;"	p	class:widgetRects.medium-led
+y	lib/widget-rects.js	/^    y: -3,$/;"	p	class:widgetRects.ratio-display
+y	lib/widget-rects.js	/^    y: -3,$/;"	p	class:widgetRects.simple-socket
+y	lib/widget-rects.js	/^    y: -6,$/;"	p	class:widgetRects.big-knob
+y	lib/widget-rects.js	/^    y: -6,$/;"	p	class:widgetRects.knob-25
+y	lib/widget-rects.js	/^    y: -7,$/;"	p	class:widgetRects.knob-27
+y	lib/widget-rects.js	/^    y: 14,$/;"	p	class:widgetRects.fn-3-display
+y	nuxt.config.js	/^        position = { x: 0, y: 0 }$/;"	p	class:module.exports.router.scrollBehavior.position
+zzc-docs	README.md	/^# zzc-docs$/;"	c
+Внешние источники темпа	static/markdown/clock/clock.ru.md	/^## Внешние источники темпа$/;"	s
+Входы	static/markdown/clock/clock.ru.md	/^### Входы$/;"	S
+Входы	static/markdown/divider/divider.ru.md	/^### Входы$/;"	S
+Входы	static/markdown/fn-3/fn-3.ru.md	/^### Входы$/;"	S
+Выходы	static/markdown/clock/clock.ru.md	/^### Выходы$/;"	S
+Выходы	static/markdown/divider/divider.ru.md	/^### Выходы$/;"	S
+Выходы	static/markdown/fn-3/fn-3.ru.md	/^### Выходы$/;"	S
+Генераторы	static/markdown/generators.ru.md	/^# Генераторы$/;"	c
+Главная панель	static/markdown/clock/clock.ru.md	/^## Главная панель$/;"	s
+Главная панель	static/markdown/divider/divider.ru.md	/^## Главная панель$/;"	s
+Главная панель	static/markdown/fn-3/fn-3.ru.md	/^## Главная панель$/;"	s
+Изменение скорости	static/markdown/clock/clock.ru.md	/^### Изменение скорости$/;"	S
+Индикация	static/markdown/clock/clock.ru.md	/^### Индикация$/;"	S
+Индикация	static/markdown/divider/divider.ru.md	/^### Индикация$/;"	S
+Индикация	static/markdown/fn-3/fn-3.ru.md	/^### Индикация$/;"	S
+История создания	static/markdown/clock/clock.ru.md	/^## История создания$/;"	s
+История создания	static/markdown/fn-3/fn-3.ru.md	/^## История создания$/;"	s
+Манипуляции клоком	static/markdown/clock-manipulation.ru.md	/^# Манипуляции клоком$/;"	c
+Меандр	static/markdown/fn-3/fn-3.ru.md	/^## Меандр$/;"	s
+Модули ZZC	static/markdown/index.ru.md	/^# Модули ZZC$/;"	c
+Основная функция	static/markdown/divider/divider.ru.md	/^## Основная функция$/;"	s
+Реверс	static/markdown/clock/clock.ru.md	/^## Реверс$/;"	s
+Свинг	static/markdown/clock/clock.ru.md	/^## Свинг$/;"	s
+Свинг	static/markdown/divider/divider.ru.md	/^## Свинг$/;"	s
+Синусоида	static/markdown/fn-3/fn-3.ru.md	/^## Синусоида$/;"	s
+Синхронизация: Внешний источник вольт на долю на секунду (V/BPS)	static/markdown/clock/clock.ru.md	/^### Синхронизация: Внешний источник вольт на долю на с/;"	S
+Синхронизация: Внешний источник импульсов (CLK)	static/markdown/clock/clock.ru.md	/^### Синхронизация: Внешний источник импульсов (CLK)$/;"	S
+Синхронизация: Внешний источник импульсов и фазы (CLK + PHASE)	static/markdown/clock/clock.ru.md	/^### Синхронизация: Внешний источник импульсов и фазы (/;"	S
+Синхронизация: Внешний источник фазы (PHASE)	static/markdown/clock/clock.ru.md	/^### Синхронизация: Внешний источник фазы (PHASE)$/;"	S
+Треугольник	static/markdown/fn-3/fn-3.ru.md	/^## Треугольник$/;"	s
+Управление	static/markdown/clock/clock.ru.md	/^### Управление$/;"	S
+Управление	static/markdown/divider/divider.ru.md	/^### Управление$/;"	S
+Управление	static/markdown/fn-3/fn-3.ru.md	/^### Управление$/;"	S
+Фаза	static/markdown/clock/clock.ru.md	/^## Фаза$/;"	s
