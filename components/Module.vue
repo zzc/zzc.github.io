@@ -23,9 +23,16 @@ export default {
   .image {
     display: block;
 
+    @include shrink-big-module {
+      max-height: 285px;
+    }
+
     @include phone {
       max-height: 190px;
-      max-width: 100%;
+    }
+
+    @include shrink-big-module-2 {
+      max-height: 95px;
     }
   }
 }

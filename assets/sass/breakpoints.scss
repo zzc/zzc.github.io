@@ -9,3 +9,15 @@
     @content;
   }
 }
+
+@mixin shrink-big-module {
+  @media screen and (max-width: 1020px) {
+    @content;
+  }
+}
+
+@mixin shrink-big-module-2 {
+  @media screen and (max-width: 490px) {
+    @content;
+  }
+}
