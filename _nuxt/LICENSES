@@ -4,26 +4,17 @@
  * Released under the MIT License.
  */
 
+/**
+ * vuex v3.1.0
+ * (c) 2019 Evan You
+ * @license MIT
+ */
+
 /*!
   * vue-router v3.0.3
   * (c) 2019 Evan You
   * @license MIT
   */
-
-/*!
- * cookie
- * Copyright(c) 2012-2014 Roman Shtylman
- * Copyright(c) 2015 Douglas Christopher Wilson
- * MIT Licensed
- */
-
-/*!
- * JavaScript Cookie v2.2.0
- * https://github.com/js-cookie/js-cookie
- *
- * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
- * Released under the MIT license
- */
 
 /**
  * vue-meta v1.6.0
@@ -51,7 +42,7 @@
  */
 
 /*!
- * vue-i18n v8.10.0 
+ * vue-i18n v8.11.2 
  * (c) 2019 kazuya kawaguchi
  * Released under the MIT License.
  */
