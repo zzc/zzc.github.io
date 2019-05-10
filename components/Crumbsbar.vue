@@ -7,6 +7,8 @@
       template(v-for='crumb in crumbs')
         arrow.arrow
         nuxt-link.crumb(:to='crumb.url') {{ crumb.title }}
+      .right-slot
+        slot
 </template>
 
 <script>
@@ -55,7 +57,7 @@ $color-gray-crumbs-selection: #616464;
       background-color: $color-zzc;
     }
 
-    .crumb:last-child {
+    .crumb:last-of-type {
       background-color: $color-gray-crumbs-selection;
     }
   }
@@ -63,7 +65,7 @@ $color-gray-crumbs-selection: #616464;
   &.theme-yellow {
     background-color: $color-zzc;
 
-    .crumb:last-child {
+    .crumb:last-of-type {
       background-color: #fff;
     }
   }
@@ -97,8 +99,9 @@ $color-gray-crumbs-selection: #616464;
       &:hover {
         text-decoration: underline;
       }
-      &:last-child {
+      &:last-of-type {
         padding: 0 20px;
+        margin-right: 20px;
       }
     }
   }

@@ -20,6 +20,7 @@ import Container from '~/components/Container'
 import Crumbsbar from '~/components/Crumbsbar'
 import DocsSection from '~/components/DocsSection'
 import Rack from '~/components/Rack'
+import StoreLink from '~/components/StoreLink'
 import MarkdownParser from '~/lib/markdown-parser'
 import categories from '~/lib/categories'
 import modules from '~/lib/modules'
@@ -31,7 +32,8 @@ export default {
     Container,
     Crumbsbar,
     DocsSection,
-    Rack
+    Rack,
+    StoreLink
   },
   async asyncData ({ $axios, app, params }) {
     const locale = app.i18n.locale

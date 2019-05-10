@@ -1,10 +1,10 @@
 <template lang='pug'>
 .rack
   crumbsbar(v-if='crumbs.length > 0', :crumbs='crumbs')
-  .background
+  .background(:class='{ single: modules.length === 1 }')
     container
       .rack-layout(:class='{ multiple: modules.length > 1 }')
-        module.module(v-for='module in modules', :key='module.slug', :module='module')
+        module.module(v-for='module in modules', :key='module.slug', :module='module', :single='modules.length === 1')
 </template>
 
 <script>
@@ -56,6 +56,10 @@ $color-rack-background: #616464;
     @include shrink-big-module-2 {
       background-size: auto 95px;
     }
+
+    &.single {
+      background-size: auto 100%;
+    }
   }
 
   .rack-layout {
@@ -64,20 +68,10 @@ $color-rack-background: #616464;
     justify-content: center;
     margin-left: -7.5px;
     margin-right: -7.5px;
-    min-height: 380px;
-
-    @include shrink-big-module {
-      min-height: 285px;
-    }
 
     @include phone {
       margin-left: -3.75px;
       margin-right: -3.75px;
-      min-height: 190px;
-    }
-
-    @include shrink-big-module-2 {
-      min-height: 95px;
     }
 
     &.multiple {

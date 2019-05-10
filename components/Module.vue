@@ -1,5 +1,5 @@
 <template lang='pug'>
-nuxt-link.module(:to='{ name: "categorySlug-moduleSlug", params: { categorySlug: module.category.slug, moduleSlug: module.slug, lang: $i18n.locale } }')
+nuxt-link.module(:to='{ name: "categorySlug-moduleSlug", params: { categorySlug: module.category.slug, moduleSlug: module.slug, lang: $i18n.locale } }', :class='{ single }')
   img.image(:src='`/markdown/${module.slug}/${module.slug}.svg`')
 </template>
 
@@ -9,6 +9,10 @@ export default {
     module: {
       type: Object,
       required: true
+    },
+    single: {
+      type: Boolean,
+      default: false
     }
   }
 }
@@ -19,6 +23,14 @@ export default {
 
 .module {
   max-width: 100%;
+
+  &.single {
+    .image {
+      width: 1300px;
+      max-width: 100%;
+      max-height: 548px;
+    }
+  }
 
   .image {
     display: block;
