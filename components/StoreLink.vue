@@ -1,13 +1,33 @@
 <template lang='pug'>
-a.store-link(:href='href'): slot
+a.store-link(:href='href', target='_blank')
+  | {{ module.price > 0 ? `Buy for $${module.price}` : 'Add to Rack' }}
+  arrow-right.icon
 </template>
 
 <script>
+import ArrowRight from '~/assets/images/icons/arrow-right.svg?inline'
+import modules from '~/lib/modules'
+
 export default {
   props: {
-    href: {
+    moduleSlug: {
       type: String,
       required: true
+    }
+  },
+  components: {
+    ArrowRight
+  },
+  computed: {
+    module () {
+      return modules.find(module => module.slug === this.moduleSlug)
+    },
+    href () {
+      let url = 'https://vcvrack.com/plugins.html#ZZC'
+      if (this.module.price > 0) {
+        url += ` ${this.module.name}`
+      }
+      return url
     }
   }
 }
@@ -19,17 +39,21 @@ export default {
 
 .store-link {
   @include center;
-  background-color: $color-fg;
   border-radius: 5px;
-  color: white;
-  // font-family: 'Montserrat';
+  color: $color-fg;
   height: 40px;
   padding: 0 20px;
   font-size: 14px;
   font-weight: 600;
+  border: 1px solid $color-fg;
+
+  .icon {
+    margin-left: 10px;
+  }
 
   &:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+    background-color: $color-fg;
+    color: $color-zzc;
   }
 }
 </style>

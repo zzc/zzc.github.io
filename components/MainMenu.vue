@@ -2,13 +2,12 @@
 .main-menu(:class='{column}')
   menu-item(
     v-for='category in categories',
+    v-if='category.showInMenu',
     :key='category.slug',
     :solid='column',
     :to='{ name: "categorySlug", params: { categorySlug: category.slug, lang: $i18n.locale } }'
   ) {{ category.name[$i18n.locale] }}
     component.icon(:is='category.icon', slot='icon')
-  //- menu-item(:solid='column', to='/sequencers') Sequencers
-  //-   sequence(slot='icon')
   //- menu-item(:solid='column', to='/amps') Amps
   //-   amp(slot='icon')
   //- menu-item(:solid='column', to='/mixing') Mixing

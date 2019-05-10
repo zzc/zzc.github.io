@@ -63,7 +63,7 @@ export default {
     },
     rackCrumbs () {
       return [
-        { url: this.localePath({ name: 'categorySlug', params: { categorySlug: this.$route.params.categorySlug } }),
+        { url: { name: 'categorySlug', params: { categorySlug: this.$route.params.categorySlug, lang: this.$i18n.locale } },
           title: this.category.name[this.$i18n.locale] }
       ]
     },

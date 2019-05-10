@@ -1,6 +1,10 @@
 <template lang='pug'>
 .title
-  component(:is='`h${level}`', :class='{center}'): slot
+  component(:is='`h${level}`', :class='{center}')
+    .contents
+      slot
+      .aside
+        slot(name='aside')
 </template>
 
 <script>
@@ -23,6 +27,14 @@ export default {
 
 .title {
   font-family: 'Montserrat';
+
+  .contents {
+    display: flex;
+  }
+
+  .aside {
+    margin-left: auto;
+  }
 
   h2, h3, h4, h5, h6 {
     margin-top: 1.0em;

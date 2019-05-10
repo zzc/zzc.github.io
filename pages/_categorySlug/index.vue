@@ -13,6 +13,13 @@ import ArticlePage from '~/components/ArticlePage'
 import categories from '~/lib/categories'
 import modules from '~/lib/modules'
 
+const filterModules = (modules, category) => {
+  if (['free', 'paid'].includes(category)) {
+    return modules.filter(module => (module.price > 0) === (category === 'paid'))
+  }
+  return modules.filter(module => module.category.slug === category)
+}
+
 export default {
   components: {
     ArticlePage
@@ -23,7 +30,7 @@ export default {
     const markdown = await $axios.$get(path)
     return {
       markdown,
-      modules: modules.filter(module => module.category.slug === params.categorySlug)
+      modules: filterModules(modules, params.categorySlug)
     }
   },
   head () {

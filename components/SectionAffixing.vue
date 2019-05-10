@@ -15,6 +15,11 @@
       .article
         template(v-for='(item, idx) in article')
           ttl(v-if='item.type === "heading"', :level='item.depth') {{ item.text }}
+            store-link(
+              slot='aside',
+              v-if='idx === 0',
+              :moduleSlug='moduleSlug'
+            )
           subttl.subtitle(v-else-if='item.type === "blockquote" && idx < 3') {{ item.items[0].text }}
           template(v-else-if='item.type === "legend"')
             affix-legend.legend(
@@ -37,6 +42,7 @@ import Blueprint from '~/components/Blueprint'
 import Subttl from '~/components/SubTitle'
 import Ttl from '~/components/Title'
 import MdItem from '~/components/MdItem'
+import StoreLink from '~/components/StoreLink'
 
 export default {
   name: 'section-affixing',
@@ -61,7 +67,8 @@ export default {
     Blueprint,
     Subttl,
     Ttl,
-    MdItem
+    MdItem,
+    StoreLink
   },
   data: () => ({
     blueprintRect: {
@@ -153,4 +160,3 @@ export default {
   }
 }
 </style>
-
