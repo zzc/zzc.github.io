@@ -1,9 +1,10 @@
 <template lang='pug'>
 .rack
   crumbsbar(v-if='crumbs.length > 0', :crumbs='crumbs')
-  container
-    .rack-layout
-      module.module(v-for='module in modules', :key='module.slug', :module='module')
+  .background
+    container
+      .rack-layout(:class='{ multiple: modules.length > 1 }')
+        module.module(v-for='module in modules', :key='module.slug', :module='module')
 </template>
 
 <script>
@@ -32,24 +33,29 @@ export default {
 
 <style lang='scss' scoped>
 @import "~/assets/sass/breakpoints.scss";
+@import "~/assets/sass/colors.scss";
 
 $color-rack-background: #616464;
 
 .rack {
-  background-color: $color-rack-background;
-  background-image: url('~assets/images/rack-bg.svg');
   overflow: hidden;
 
-  @include shrink-big-module {
-    background-size: auto 285px;
-  }
+  .background {
+    background-color: $color-rack-background;
+    background-image: url('~assets/images/rack-bg.svg');
+    background-position: 0 0;
 
-  @include phone {
-    background-size: auto 190px;
-  }
+    @include shrink-big-module {
+      background-size: auto 285px;
+    }
 
-  @include shrink-big-module-2 {
-    background-size: auto 95px;
+    @include phone {
+      background-size: auto 190px;
+    }
+
+    @include shrink-big-module-2 {
+      background-size: auto 95px;
+    }
   }
 
   .rack-layout {
@@ -74,14 +80,23 @@ $color-rack-background: #616464;
       min-height: 95px;
     }
 
+    &.multiple {
+      &:hover {
+        .module {
+          filter: brightness(50%);
+          &:hover {
+            filter: none;
+            transition: filter .1s ease;
+          }
+        }
+      }
+    }
+
     .module {
       margin-left: 7.5px;
       margin-right: 7.5px;
       // box-shadow: 0px 5px 20px rgba(0, 0, 0, .25);
-
-      &:hover {
-        opacity: .75;
-      }
+      transition: filter 1s ease;
 
       @include phone {
         margin-left: 3.75px;

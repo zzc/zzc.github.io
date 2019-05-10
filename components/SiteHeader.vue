@@ -16,14 +16,17 @@
           //-   menu-item(:to='localePath({ name: "categorySlug", params: { categorySlug: "paid" } })') {{ $t('menu.paid') }}
           .group
             .separator: .dot
-            menu-item(:to='switchLocalePath("en")') En
-            menu-item(:to='switchLocalePath("ru")') Ru
+            menu-item(:to='{ params: { lang: "en" } }') En
+            menu-item(:to='{ params: { lang: "ru" } }') Ru
+            //- menu-item(:to='switchLocalePath("en")') En
+            //- menu-item(:to='switchLocalePath("ru")') Ru
           //- .group
           //-   .separator: .dot
           //-   menu-item(to='/about') About
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 import Container from '~/components/Container'
 import Logo from '~/components/Logo'
 import MainMenu from '~/components/MainMenu'
@@ -37,6 +40,9 @@ export default {
     MainMenu,
     MenuItem,
     ZzcOutline
+  },
+  methods: {
+    ...mapMutations('i18n', ['setLanguage'])
   }
 }
 </script>

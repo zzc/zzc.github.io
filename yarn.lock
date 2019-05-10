@@ -5695,6 +5695,14 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
+nuxt-i18n-module@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/nuxt-i18n-module/-/nuxt-i18n-module-0.2.6.tgz#d9618eb552298dc7b3a651aea8577c661e3f0628"
+  integrity sha512-YOH1Su9Mvxj/Qr2g6tRK38w6EAPaCuU16BSlWYHsB7/DRVsbjrLKKJrsuZDWWy5byixavcqTFjiOJwVidoZQSQ==
+  dependencies:
+    path-to-regexp "^2"
+    vue-i18n "^8"
+
 nuxt-i18n@^5.8.5:
   version "5.8.5"
   resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-5.8.5.tgz#9ae047113aae927565bda816594d04b8e8b106d7"
@@ -6022,6 +6030,11 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+
+path-to-regexp@^2:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-2.4.0.tgz#35ce7f333d5616f1c1e1bfe266c3aba2e5b2e704"
+  integrity sha512-G6zHoVqC6GGTQkZwF4lkuEyMbVOjoBKAEybQUypI1WTkqinCOrq2x6U2+phkJ1XsEMTy4LjtwPI7HW+NVrRR2w==
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -8604,6 +8617,11 @@ vue-i18n-extensions@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/vue-i18n-extensions/-/vue-i18n-extensions-0.2.1.tgz#86ebea45a1f9c9594cd124f264e107aea193d7dd"
   integrity sha512-xBrItI7bEwBnG7eAlnyUARP41JYYn2+ABMR8q1Yh5FM9hHCbs4XPZwG+4+FPeIZ6b5gYk4YUP//m+fWiuU9z9A==
+
+vue-i18n@^8:
+  version "8.11.2"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.11.2.tgz#92827fc42449f4602d2a0ddb437dfc4e3370d9d7"
+  integrity sha512-STcpmxqBrG77SyWi7e0Yn/B3DjKR6mSDwYS4F/V7zoi+e/+CPbVb2TaBqFwnrkoDcPmRfjM7nTwsiRQQOGdifw==
 
 vue-i18n@^8.8.2:
   version "8.10.0"

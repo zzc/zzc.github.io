@@ -4,7 +4,7 @@
     v-for='category in categories',
     :key='category.slug',
     :solid='column',
-    :to='localePath({ name: "categorySlug", params: { categorySlug: category.slug } })'
+    :to='{ name: "categorySlug", params: { categorySlug: category.slug, lang: $i18n.locale } }'
   ) {{ category.name[$i18n.locale] }}
     component.icon(:is='category.icon', slot='icon')
   //- menu-item(:solid='column', to='/sequencers') Sequencers

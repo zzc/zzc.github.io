@@ -6,10 +6,16 @@
     :article='section.items',
     :moduleSlug='moduleSlug'
   )
+  section-simple(
+    v-else-if='section.type === "simple"',
+    :article='section.items',
+    :moduleSlug='moduleSlug'
+  )
 </template>
 
 <script>
 import SectionAffixing from '~/components/SectionAffixing'
+import SectionSimple from '~/components/SectionSimple'
 
 export default {
   name: 'docs-section',
@@ -24,7 +30,8 @@ export default {
     }
   },
   components: {
-    SectionAffixing
+    SectionAffixing,
+    SectionSimple
   }
 }
 </script>

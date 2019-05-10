@@ -27,41 +27,44 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     'nuxt-svg',
-    ['nuxt-i18n', {
-      strategy: 'prefix_and_default',
-      defaultLocale: 'en',
-      locales: [
-        { code: 'en',
-          iso: 'en-US' },
-        { code: 'ru',
-          iso: 'ru-RU' }
-      ],
-      vueI18n: {
-        fallbackLocale: 'en',
-        messages: {
-          en: {
-            menu: {
-              all: 'All',
-              free: 'Free',
-              paid: 'Paid',
-              author: 'Sergey Ukolov'
-            },
-            relatedModules: 'Related Modules',
-            free: 'Free'
-          },
-          ru: {
-            menu: {
-              all: 'Все',
-              free: 'Бесплатные',
-              paid: 'Платные',
-              author: 'Сергей Уколов'
-            },
-            relatedModules: 'Модули по теме',
-            free: 'Бесплатно'
-          }
-        }
-      }
-    } ]
+    ['nuxt-i18n-module', {
+      languages: ['en', 'ru']
+    }]
+    // ['nuxt-i18n', {
+    //   strategy: 'prefix_and_default',
+    //   defaultLocale: 'en',
+    //   locales: [
+    //     { code: 'en',
+    //       iso: 'en-US' },
+    //     { code: 'ru',
+    //       iso: 'ru-RU' }
+    //   ],
+    //   vueI18n: {
+    //     fallbackLocale: 'en',
+    //     messages: {
+    //       en: {
+    //         menu: {
+    //           all: 'All',
+    //           free: 'Free',
+    //           paid: 'Paid',
+    //           author: 'Sergey Ukolov'
+    //         },
+    //         relatedModules: 'Related Modules',
+    //         free: 'Free'
+    //       },
+    //       ru: {
+    //         menu: {
+    //           all: 'Все',
+    //           free: 'Бесплатные',
+    //           paid: 'Платные',
+    //           author: 'Сергей Уколов'
+    //         },
+    //         relatedModules: 'Модули по теме',
+    //         free: 'Бесплатно'
+    //       }
+    //     }
+    //   }
+    // } ]
   ],
   axios: {
     browserBaseURL: '/'
@@ -95,5 +98,16 @@ module.exports = {
   build: {
     extend(config, ctx) {
     }
+  },
+  generate: {
+    routes: [
+      '/clock-manipulation',
+      '/generators',
+      '/sequencers',
+      '/clock-manipulation/clock',
+      '/clock-manipulation/divider',
+      '/generators/fn-3',
+      '/sequencers/phaseque'
+    ]
   }
 }

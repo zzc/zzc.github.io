@@ -4,7 +4,7 @@
   ul
     li(v-for='module in modules')
       nuxt-link.module-link(
-        :to='localePath({ name: "categorySlug-moduleSlug", params: { categorySlug: module.category.slug, moduleSlug: module.slug } })'
+        :to='{ name: "categorySlug-moduleSlug", params: { categorySlug: module.category.slug, moduleSlug: module.slug, lang: $i18n.locale } }'
       )
         .name-section
           .module-name {{ module.name }}

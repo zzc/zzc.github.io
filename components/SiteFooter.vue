@@ -8,8 +8,10 @@
         logo
         menu-item(to='https://github.com/zezic') {{ $t('menu.author') }} • {{ (new Date()).getFullYear() }}
         .row
-          menu-item(:to='switchLocalePath("en")') En
-          menu-item(:to='switchLocalePath("ru")') Ru
+          menu-item(:to='{ params: { lang: "en" } }') En
+          menu-item(:to='{ params: { lang: "ru" } }') Ru
+          //- menu-item(:to='switchLocalePath("en")') En
+          //- menu-item(:to='switchLocalePath("ru")') Ru
         //- menu-item(to='/contact') Contact
         //- menu-item(to='/about') About
       //- .group.group-2

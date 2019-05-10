@@ -1,0 +1,10 @@
+{
+ "menu": {
+   "all": "All",
+   "free": "Free",
+   "paid": "Paid",
+   "author": "Sergey Ukolov"
+ },
+ "relatedModules": "Related Modules",
+ "free": "Free"
+}
