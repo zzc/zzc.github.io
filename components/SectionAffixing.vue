@@ -15,10 +15,10 @@
       .article
         template(v-for='(item, idx) in article')
           ttl(v-if='item.type === "heading"', :level='item.depth') {{ item.text }}
-            free-and-open-source(
-              v-if='module.price === 0 && idx === 0',
-              slot='aside'
-            )
+            //- free-and-open-source(
+            //-   v-if='module.price === 0 && idx === 0',
+            //-   slot='aside'
+            //- )
             store-link(
               slot='aside',
               v-if='idx === 0',

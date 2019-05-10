@@ -37,6 +37,8 @@ export default {
     display: flex;
     margin-left: auto;
     align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
   }
 
   h2, h3, h4, h5, h6 {
