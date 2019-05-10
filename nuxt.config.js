@@ -107,7 +107,9 @@ module.exports = {
       '/clock-manipulation/clock',
       '/clock-manipulation/divider',
       '/generators/fn-3',
-      '/sequencers/phaseque'
+      '/sequencers/phaseque',
+      '/free',
+      '/paid'
     ]
   }
 }
