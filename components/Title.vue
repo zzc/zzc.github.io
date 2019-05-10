@@ -24,6 +24,7 @@ export default {
 
 <style lang='scss' scoped>
 @import "~/assets/sass/breakpoints.scss";
+@import "~/assets/sass/utils.scss";
 
 .title {
   font-family: 'Montserrat';
@@ -33,7 +34,9 @@ export default {
   }
 
   .aside {
+    display: flex;
     margin-left: auto;
+    align-items: center;
   }
 
   h2, h3, h4, h5, h6 {

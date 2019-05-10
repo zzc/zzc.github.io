@@ -1,6 +1,6 @@
 <template lang='pug'>
 a.store-link(:href='href', target='_blank')
-  | {{ module.price > 0 ? `Buy for $${module.price}` : 'Add to Rack' }}
+  | {{ module.price > 0 ? `${$t('buyFor')} $${module.price}` : $t('addToRack') }}
   arrow-right.icon
 </template>
 
@@ -46,6 +46,7 @@ export default {
   font-size: 14px;
   font-weight: 600;
   border: 1px solid $color-fg;
+  margin-left: 40px;
 
   .icon {
     margin-left: 10px;

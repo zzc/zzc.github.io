@@ -15,6 +15,10 @@
       .article
         template(v-for='(item, idx) in article')
           ttl(v-if='item.type === "heading"', :level='item.depth') {{ item.text }}
+            free-and-open-source(
+              v-if='module.price === 0 && idx === 0',
+              slot='aside'
+            )
             store-link(
               slot='aside',
               v-if='idx === 0',
@@ -43,6 +47,9 @@ import Subttl from '~/components/SubTitle'
 import Ttl from '~/components/Title'
 import MdItem from '~/components/MdItem'
 import StoreLink from '~/components/StoreLink'
+import FreeAndOpenSource from '~/components/FreeAndOpenSource'
+
+import modules from '~/lib/modules'
 
 export default {
   name: 'section-affixing',
@@ -68,7 +75,8 @@ export default {
     Subttl,
     Ttl,
     MdItem,
-    StoreLink
+    StoreLink,
+    FreeAndOpenSource
   },
   data: () => ({
     blueprintRect: {
@@ -93,6 +101,9 @@ export default {
       if (!this.article) { return [] }
       const legend = this.article.find(item => item.type === 'legend')
       return legend ? legend.items : []
+    },
+    module () {
+      return modules.find(module => module.slug === this.moduleSlug)
     }
   },
   methods: {

@@ -6,5 +6,8 @@
    "author": "Сергей Уколов"
  },
  "relatedModules": "Модули по теме",
- "free": "Бесплатно"
+ "free": "Бесплатно",
+ "buyFor": "Купить за",
+ "addToRack": "Добавить в Rack",
+ "freeAndOpenSource": "Свободное ПО"
 }
