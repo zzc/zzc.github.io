@@ -34,6 +34,7 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+@import "~/assets/sass/breakpoints.scss";
 @import "~/assets/sass/colors.scss";
 @import "~/assets/sass/utils.scss";
 
@@ -48,6 +49,10 @@ export default {
   border: 1px solid $color-fg;
   margin-left: 40px;
   white-space: nowrap;
+
+  @include phone {
+    margin-left: 20px;
+  }
 
   .icon {
     margin-left: 10px;
