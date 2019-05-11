@@ -47,6 +47,7 @@ export default {
   font-weight: 600;
   border: 1px solid $color-fg;
   margin-left: 40px;
+  white-space: nowrap;
 
   .icon {
     margin-left: 10px;
