@@ -2,7 +2,8 @@
 .title
   component(:is='`h${level}`', :class='{center}')
     .contents
-      slot
+      span.text
+        slot
       .aside
         slot(name='aside')
 </template>
@@ -31,14 +32,22 @@ export default {
 
   .contents {
     display: flex;
-  }
+    flex-wrap: wrap;
 
-  .aside {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
+    .text {
+      margin-right: auto;
+      padding-right: 40px;
+      @include phone {
+        padding-right: 20px;
+      }
+    }
+
+    .aside {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap-reverse;
+      justify-content: flex-end;
+    }
   }
 
   h2, h3, h4, h5, h6 {
@@ -56,6 +65,10 @@ export default {
     margin-top: -8px;
     margin-bottom: 0;
     font-size: 54px;
+
+    .text, .aside {
+      margin-bottom: .5em;
+    }
 
     @include phone {
       font-size: 28px;

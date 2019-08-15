@@ -1,6 +1,8 @@
 <template lang='pug'>
 a.store-link(:href='href', target='_blank')
-  | {{ module.price > 0 ? `${$t('buyFor')} $${module.price}` : $t('addToRack') }}
+  span.buy(v-if='module.price > 0') {{ $t('buyFor') }}
+  span.free(v-else) {{ $t('addToRack') }}
+  span.price(v-if='module.price > 0') {{ ' ' }} ${{ module.price }}
   arrow-right.icon
 </template>
 
@@ -47,11 +49,19 @@ export default {
   font-size: 14px;
   font-weight: 600;
   border: 1px solid $color-fg;
-  margin-left: 40px;
   white-space: nowrap;
 
-  @include phone {
-    margin-left: 20px;
+  .buy {
+    @include phone {
+      display: none;
+    }
+  }
+
+  .price {
+    &::before {
+      content: ' ';
+      display: inline-block;
+    }
   }
 
   .icon {

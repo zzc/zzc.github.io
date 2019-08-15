@@ -12,7 +12,7 @@
         .price-section
           price-label.label
           | {{ module.price ? '$' + module.price : $t('free') }}
-        arrow
+        arrow.arrow
 </template>
 
 <script>
@@ -40,6 +40,7 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+@import "~/assets/sass/breakpoints.scss";
 
 .module-list {
   .title {
@@ -53,6 +54,10 @@ export default {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     grid-gap: 20px 60px;
 
+    @include phone {
+      grid-gap: 20px 40px;
+    }
+
     li {
       list-style: none;
       font-size: 14px;
@@ -60,6 +65,7 @@ export default {
       .module-link {
         display: flex;
         align-items: center;
+        height: 100%;
 
         &:hover {
           text-decoration: underline;
@@ -67,6 +73,10 @@ export default {
 
         .name-section {
           margin-right: auto;
+          padding-right: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
 
           .module-name {
             font-family: 'Montserrat';
@@ -87,6 +97,10 @@ export default {
           .label {
             margin-right: 20px;
           }
+        }
+
+        .arrow {
+          flex-shrink: 0;
         }
       }
     }

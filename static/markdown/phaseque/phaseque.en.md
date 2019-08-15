@@ -10,7 +10,7 @@ start: simple
 
 > Phase-Driven Sequencer
 
-Phaseque is a sequencer which initially was developed with two ideas in mind - solve some problems related to classical sequencers and create something new. For example, it's a common situation when composer realizes that start of a sequence is not at 1st step of sequencer - in such case Phaseque allows to easily shift pattern to desired position. Apart from that it provide many onther interesting thing unusual for common sequencers.
+Phaseque is a sequencer initially developed with two ideas in mind - solve some problems related to classical sequencers and create something new. For example, it's a common situation when composer realizes that start of a sequence is not at 1st step of sequencer - in such case Phaseque allows to easily shift pattern to desired position. Apart from that it provide many onther interesting thing unusual for common sequencers.
 
 ## Quickstart
 
