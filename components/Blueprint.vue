@@ -149,7 +149,7 @@ export default {
       display: block;
       width: 100%;
       height: 100%;
-      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('~assets/images/panel-overflow.svg');
+      background-image: url('~assets/images/panel-overflow.svg');
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;

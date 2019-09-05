@@ -169,12 +169,138 @@ slug: inputs
 ### Входы
 
 * <!---
-  x: 10
-  y: 52
+  x: 13
+  y: 50
+  slug: clock
+  type: labeled-socket
+  -->
+  <a name="inputs-clock" href='#inputs-clock'>Clock</a> - импульсы внешнего источника транспорта.
+
+* <!---
+  x: 48
+  y: 50
   slug: vbps
   type: labeled-socket
   -->
-  <a name="inputs-vbps" href='#inputs-vbps'>V/BPS</a> - вольты на бит на секунду. Напряжение на входе регулирует текущий темп модуля, каждый вольт прибавляет 60 BPM к текущему значению. Поддерживаются отрицательные значения, они могут заставить работать генератор в обратную сторону (реверс).
+  <a name="inputs-vbps" href='#inputs-vbps'>V/BPS</a> - темп внешнего источника транспорта в формате V/BPS.
+
+* <!---
+  x: 83
+  y: 50
+  slug: phase
+  type: labeled-socket
+  -->
+  <a name="inputs-phase" href='#inputs-phase'>Phase</a> - фаза внешнего источника транспорта.
+
+* <!---
+  x: 188
+  y: 81
+  slug: cltch
+  type: simple-socket
+  -->
+  <a name="inputs-cltch" href='#inputs-cltch'>Clutch</a> - сцепление секвенсора с внешним источником транспорта.
+
+* <!---
+  x: 224
+  y: 81
+  slug: reset
+  type: simple-socket
+  -->
+  <a name="inputs-reset" href='#inputs-reset'>Reset</a> - сброс фазы секвенсора.
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: controls
+-->
+
+### Управление
+
+* <!---
+  x: 15
+  y: 82
+  slug: tempo-tracking
+  type: simple-led-switch
+  -->
+  <a name="controls-tempo-tracking" href='#controls-tempo-tracking'>Tempo Tracking</a> - трекинг темпа внешнего источника траспорта. В режиме импульсного внешнего источника транспорта при включенном трекинге секвенсор будет подстраивать скорость движения между импульсами под темп внешнего транспорта игнорируя положение регулятора [BPM](#controls-bpm).
+
+* <!---
+  x: 49
+  y: 81
+  slug: bpm
+  type: knob-25
+  -->
+  <a name="controls-bpm" href='#controls-bpm'>BPM</a> - целевой темп секвенсора для движения между импульсами внешнего источника транспорта.
+
+* <!---
+  x: 120
+  y: 51
+  slug: abs-mode
+  type: simple-led-switch
+  -->
+  <a name="controls-abs-mode" href='#controls-abs-mode'>Absolute Mode</a> - режим абсолютной входящей фазы, при котором диапазон фазы на входе [Phase](#inputs-phase) соответствует всей длине паттерна.
+
+* <!---
+  x: 154
+  y: 81
+  slug: resolution
+  type: knob-25
+  -->
+  <a name="controls-resolution" href='#controls-resolution'>Resolution</a> - разрешение паттерна. Задаёт количество циклов фазы, необходимое для того, чтобы секвенсор прошёл паттерн от начала до конца. Каждый паттерн может иметь своё разрешение.
+
+* <!---
+  x: 190
+  y: 51
+  slug: clutch
+  type: labeled-led-switch
+  -->
+  <a name="controls-clutch" href='#controls-clutch'>Clutch</a> - сцепление секвенсора с внешним источником транспорта.
+
+* <!---
+  x: 226
+  y: 51
+  slug: reset
+  type: labeled-led-switch
+  -->
+  <a name="controls-reset" href='#controls-reset'>Reset</a> - сброс фазы секвенсора.
+
+* <!---
+  x: 258
+  y: 49
+  slug: phase
+  type: big-cross-knob
+  -->
+  <a name="controls-phase" href='#controls-phase'>Manual</a> - ручное смещение фазы секвенсора.
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: indicators
+-->
+
+### Индикация
+
+* <!---
+  x: 84
+  y: 83
+  slug: bpm
+  type: bpm-display
+  -->
+  <a name="indicators-bpm" href='#indicators-bpm'>BPM</a> - текущий целевой темп секвенсора или темп, определённый с помощью трекинга при активной функции [Tempo Tracking](#controls-tempo-tracking). Дисплей не активен при работе в режиме управления фазой [Phase](#inputs-phase).
+
+* <!---
+  x: 152
+  y: 52
+  slug: resolution
+  type: 2-register-display
+  -->
+  <a name="indicators-resolution" href='#indicators-resolution'>Resolution</a> - разрешение активного паттерна.
 
 <!---
 end: legend-group
