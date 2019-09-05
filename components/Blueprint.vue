@@ -1,23 +1,28 @@
 <template lang='pug'>
-.blueprint
-  img.blueprint-img(
-    :src='blueprintUrl',
-    ref='blueprint',
+.blueprint(:style='blueprintStyle')
+  .overflow(ref='overflow')
+    img.blueprint-img(
+      :src='blueprintUrl',
+      ref='blueprint',
+      :class='{dimmed}'
+    )
+    .previews
+      template(v-for='group in widgetGroups')
+        template(v-for='groupItem in group.items')
+          nuxt-link.preview(
+            v-if='groupItem.type === "list"',
+            v-for='widget in groupItem.items',
+            :key='makeGroupItemSlug(widget, group)',
+            :to='{ ...$route, hash: `#${makeGroupItemSlug(widget, group)}` }',
+            :style='{backgroundImage: `url(${previewUrl})`, ...styleForWidget(widget)}',
+            :class='{active: spaghettiEnabledFor === makeGroupItemSlug(widget, group)}',
+            @mouseenter.native='activateSpaghetti(widget, group)',
+            @mouseleave.native='deactivateSpaghetti(widget, group)'
+          )
+  .overflow-indicator(
+    v-if='overflowing',
     :class='{dimmed}'
   )
-  .previews
-    template(v-for='group in widgetGroups')
-      template(v-for='groupItem in group.items')
-        nuxt-link.preview(
-          v-if='groupItem.type === "list"',
-          v-for='widget in groupItem.items',
-          :key='makeGroupItemSlug(widget, group)',
-          :to='{ ...$route, hash: `#${makeGroupItemSlug(widget, group)}` }',
-          :style='{backgroundImage: `url(${previewUrl})`, ...styleForWidget(widget)}',
-          :class='{active: spaghettiEnabledFor === makeGroupItemSlug(widget, group)}',
-          @mouseenter.native='activateSpaghetti(widget, group)',
-          @mouseleave.native='deactivateSpaghetti(widget, group)'
-        )
 </template>
 
 <script>
@@ -41,12 +46,21 @@ export default {
     previewUrl: {
       type: String,
       required: true
+    },
+    blueprintOffset: {
+      type: Number,
+      default: 0
+    },
+    blueprintCrop: {
+      type: Number,
+      default: undefined
     }
   },
   name: 'blueprint',
   data: () => ({
     scale: 2.0,
-    animationId: null
+    animationId: null,
+    overflowing: false
   }),
   methods: {
     styleForWidget (widget) {
@@ -64,7 +78,9 @@ export default {
     updateScale () {
       if (this.$refs.blueprint) {
         const blueprintRect = this.$refs.blueprint.getBoundingClientRect()
+        const overflowRect = this.$refs.overflow.getBoundingClientRect()
         this.scale = blueprintRect.height / 380
+        this.overflowing = blueprintRect.width > overflowRect.width
       }
       requestAnimationFrame(this.updateScale)
     },
@@ -92,6 +108,11 @@ export default {
       return this.widgetGroups.map(({ slug }) => {
         return this.spaghettiEnabledFor.indexOf(`${slug}-`) !== -1
       }).filter(hit => hit).length > 0
+    },
+    blueprintStyle () {
+      return {
+        ...this.blueprintCrop ? { width: `${this.blueprintCrop * this.scale}px`} : {}
+      }
     }
   },
   mounted () {
@@ -109,10 +130,41 @@ export default {
 
 .blueprint {
   position: relative;
+  margin-right: 60px;
+
+  .overflow {
+    overflow: hidden;
+  }
+
+  .overflow-indicator {
+    width: 20px;
+    top: 2px;
+    bottom: 2px;
+    right: -10px;
+    position: absolute;
+    background-color: #fff;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url('~assets/images/panel-overflow.svg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      transition: opacity .2s ease;
+    }
+
+    &.dimmed {
+      &::after {
+        opacity: .3;
+      }
+    }
+  }
 
   .blueprint-img {
     height: calc(380px * 2);
-    margin-right: 60px;
     max-height: calc(100vh - 120px);
     flex-shrink: 0;
     display: block;

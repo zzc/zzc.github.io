@@ -11,6 +11,7 @@
         v-for='(section, idx) in structure',
         :key='idx'
         :section='section',
+        :sectionIdx='idx',
         :moduleSlug='$route.params.moduleSlug'
       )
 </template>

@@ -4,7 +4,8 @@
     v-if='section.type === "affixing"',
     :affixed='section.affixed',
     :article='section.items',
-    :moduleSlug='moduleSlug'
+    :moduleSlug='moduleSlug',
+    :sectionIdx='sectionIdx'
   )
   section-simple(
     v-else-if='section.type === "simple"',
@@ -27,6 +28,10 @@ export default {
     moduleSlug: {
       type: String,
       default: null
+    },
+    sectionIdx: {
+      type: Number,
+      required: true
     }
   },
   components: {

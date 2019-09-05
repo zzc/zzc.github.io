@@ -6,6 +6,8 @@
       ref='blueprint',
       :blueprintUrl='`/markdown/${moduleSlug}/${affixed.affixed.blueprint}`',
       :previewUrl='`/markdown/${moduleSlug}/${affixed.affixed.preview}`',
+      :blueprintOffset='affixed.affixed.blueprintOffset'
+      :blueprintCrop='affixed.affixed.blueprintCrop'
       :widgetGroups='widgetGroups',
       :spaghettiEnabledFor='spaghettiEnabledFor',
       @spaghettiRequest='onSpaghettiRequest',
@@ -15,13 +17,9 @@
       .article
         template(v-for='(item, idx) in article')
           ttl(v-if='item.type === "heading"', :level='item.depth') {{ item.text }}
-            //- free-and-open-source(
-            //-   v-if='module.price === 0 && idx === 0',
-            //-   slot='aside'
-            //- )
             store-link(
               slot='aside',
-              v-if='idx === 0',
+              v-if='idx === 0 && sectionIdx === 0',
               :moduleSlug='moduleSlug'
             )
           subttl.subtitle(v-else-if='item.type === "blockquote" && idx < 3') {{ item.items[0].text }}
@@ -64,6 +62,10 @@ export default {
     },
     moduleSlug: {
       type: String,
+      required: true
+    },
+    sectionIdx: {
+      type: Number,
       required: true
     }
   },
