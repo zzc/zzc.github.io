@@ -307,6 +307,187 @@ end: legend-group
 -->
 
 <!---
+start: legend-group
+slug: inputs
+-->
+
+## Секция навигации по сетке паттернов
+
+### Входы
+
+* <!---
+  x: 14
+  y: 126
+  slug: goto
+  type: labeled-socket
+  -->
+  <a name="inputs-goto" href='#inputs-goto'>Go To</a> - перейти к паттерну, соответствующему напряжению на входе [V/12P](#inputs-v12p)
+
+* <!---
+  x: 49
+  y: 126
+  slug: v12p
+  type: labeled-socket
+  -->
+  <a name="inputs-v12p" href='#inputs-v12p'>V/12P</a> - желаемый номер паттерна, к которому нужно перейти (1V на 12 паттернов)
+
+* <!---
+  x: 14
+  y: 220
+  slug: prev
+  type: labeled-socket
+  -->
+  <a name="inputs-prev" href='#inputs-prev'>Previous</a> - перейти к предыдущему по номеру, непустому паттерну
+
+* <!---
+  x: 49
+  y: 220
+  slug: next
+  type: labeled-socket
+  -->
+  <a name="inputs-next" href='#inputs-next'>Next</a> - перейти к следующему по номеру, непустому паттерну
+
+* <!---
+  x: 84
+  y: 220
+  slug: left
+  type: labeled-socket
+  -->
+  <a name="inputs-left" href='#inputs-left'>Left</a> - перейти на следюущий непустой паттерн влево по стакану паттернов
+
+* <!---
+  x: 119
+  y: 220
+  slug: down
+  type: labeled-socket
+  -->
+  <a name="inputs-down" href='#inputs-down'>Down</a> - перейти на следюущий непустой паттерн вниз по стакану паттернов
+
+* <!---
+  x: 154
+  y: 220
+  slug: up
+  type: labeled-socket
+  -->
+  <a name="inputs-up" href='#inputs-up'>Up</a> - перейти на следюущий непустой паттерн вверх по стакану паттернов
+
+* <!---
+  x: 189
+  y: 220
+  slug: right
+  type: labeled-socket
+  -->
+  <a name="inputs-right" href='#inputs-right'>Right</a> - перейти на следюущий непустой паттерн вправо по стакану паттернов
+
+* <!---
+  x: 224
+  y: 220
+  slug: seq
+  type: labeled-socket
+  -->
+  <a name="inputs-seq" href='#inputs-seq'>SEQ</a> - перейти на следюущий запланированный паттерн
+
+* <!---
+  x: 259
+  y: 220
+  slug: rnd
+  type: labeled-socket
+  -->
+  <a name="inputs-rnd" href='#inputs-rnd'>RND</a> - перейти на случайный непустой паттерн
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: outputs
+-->
+
+### Выходы
+
+* <!---
+  x: 14
+  y: 174
+  slug: went
+  type: labeled-socket
+  -->
+  <a name="outputs-went" href='#outputs-went'>Went</a> - сообщает о том, что секвенсор совершил переход к другом паттерну
+
+* <!---
+  x: 49
+  y: 174
+  slug: v12p
+  type: labeled-socket
+  -->
+  <a name="outputs-v12p" href='#outputs-v12p'>V/12P</a> - номер паттерна, на котором находится секвенсор (1V на 12 паттернов)
+
+* <!---
+  x: 259
+  y: 126
+  slug: phase
+  type: labeled-socket
+  -->
+  <a name="outputs-phase" href='#outputs-phase'>Phase</a> - текущая фаза секвенсора
+
+* <!---
+  x: 294
+  y: 126
+  slug: wrap
+  type: labeled-socket
+  -->
+  <a name="outputs-wrap" href='#outputs-wrap'>Wrap</a> - сигнал о том, что фаза достигла граничного положения и перескочила на противоположную сторону
+
+* <!---
+  x: 259
+  y: 174
+  slug: start
+  type: labeled-socket
+  -->
+  <a name="outputs-start" href='#outputs-start'>Start</a> - произошёл перескок фазы в обратном направлении (секвенсор двигался назад и пересёк положения начала паттерна)
+
+* <!---
+  x: 294
+  y: 174
+  slug: end
+  type: labeled-socket
+  -->
+  <a name="outputs-end" href='#outputs-end'>End</a> - произошёл перескок фазы в прямом направлении (секвенсор двигался вперёд и пересёк положения конца паттерна)
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: controls
+-->
+
+### Управление
+
+* <!---
+  x: 84
+  y: 117
+  slug: patterns-grid
+  type: custom-rect
+  w: 165
+  h: 85
+  -->
+  <a name="controls-patterns-grid" href='#controls-patterns-grid'>Patterns Grid</a> - сетка паттернов
+
+* <!---
+  x: 295
+  y: 221
+  slug: wait
+  type: labeled-led-switch
+  -->
+  <a name="controls-wait" href='#controls-wait'>Wait</a> - блокирует работу входов, переключающих активный паттерн секвенсора извне
+
+<!---
+end: legend-group
+-->
+
+<!---
 end: legend
 -->
 

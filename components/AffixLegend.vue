@@ -3,8 +3,8 @@
   section(v-for='group in widgetGroups')
     template(v-for='item in group.items')
       .title-layout(v-if='item.type === "heading"')
-        ttl(:level='3', :center='true')
-          component.icon(:is='`${group.slug}-icon`')
+        ttl(:level='item.depth', :center='true')
+          component.icon(v-if='item.depth === 3', :is='`${group.slug}-icon`')
           span {{ item.text }}
       ul.widgets(v-else)
         li.widget(

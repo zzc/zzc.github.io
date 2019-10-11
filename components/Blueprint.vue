@@ -27,7 +27,7 @@
 
 <script>
 import { makeGroupItemSlug } from '~/lib/shared'
-import widgetRects from '~/lib/widget-rects'
+import { widgetRects, parseCustomRect } from '~/lib/widget-rects'
 
 export default {
   props: {
@@ -65,7 +65,7 @@ export default {
   methods: {
     styleForWidget (widget) {
       if (!widget.options) { return {} }
-      const rect = widgetRects[widget.options.type]
+      const rect = widget.options.type === 'custom-rect' ? parseCustomRect(widget.options) : widgetRects[widget.options.type]
       const position = { x: parseInt(widget.options.x), y: parseInt(widget.options.y) }
       return {
         transform: `scale(${this.scale}) translate(${position.x + rect.x}px, ${position.y + rect.y}px)`,

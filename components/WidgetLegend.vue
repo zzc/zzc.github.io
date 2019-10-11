@@ -28,7 +28,7 @@ import Spaghetti from '~/components/Spaghetti'
 import MdItem from '~/components/MdItem'
 import NoticeIcon from '~/assets/images/icons/notice.svg?inline'
 
-import widgetRects from '~/lib/widget-rects'
+import { widgetRects, parseCustomRect } from '~/lib/widget-rects'
 
 export default {
   props: {
@@ -77,7 +77,8 @@ export default {
     },
     updateSpaghetti () {
       if (!this.spaghettiEnabled) { return }
-      const widgetRect = widgetRects[this.widget.options.type]
+
+      const widgetRect = this.widget.options.type === 'custom-rect' ? parseCustomRect(this.widget.options) : widgetRects[this.widget.options.type]
       const bpScale = this.blueprintRect.height / 380
       const hoverAreaRect = this.$refs.hoverArea.getBoundingClientRect()
       const hoverAreaMidY = hoverAreaRect.top + hoverAreaRect.height / 2
