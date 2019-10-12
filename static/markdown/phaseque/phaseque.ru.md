@@ -488,6 +488,174 @@ end: legend-group
 -->
 
 <!---
+start: legend-group
+slug: inputs
+-->
+
+## Секция редактирования паттерна
+
+### Входы
+
+* <!---
+  x: 14
+  y: 320
+  slug: shift
+  type: labeled-socket
+  -->
+  <a name="inputs-shift" href='#inputs-shift'>Shift</a> - сдвиг паттерна по фазе
+
+* <!---
+  x: 49
+  y: 320
+  slug: len
+  type: labeled-socket
+  -->
+  <a name="inputs-len" href='#inputs-len'>LEN</a> - аттенюация продолжительности шагов паттерна
+
+* <!---
+  x: 119
+  y: 320
+  slug: muta-dec
+  type: labeled-socket
+  -->
+  <a name="inputs-muta-dec" href='#inputs-muta-dec'>MUTA -</a> - уменьшение мутации (положительные импульсы пошагово уменьшают мутацию, отрицательные импульсы сбрасывают мутацию на ноль)
+
+* <!---
+  x: 189
+  y: 320
+  slug: muta-inc
+  type: labeled-socket
+  -->
+  <a name="inputs-muta-inc" href='#inputs-muta-inc'>MUTA +</a> - усугубление мутации (положительные импульсы пошагово усугубляют мутацию)
+
+* <!---
+  x: 259
+  y: 320
+  slug: gate
+  type: labeled-socket
+  -->
+  <a name="inputs-gate" href='#inputs-gate'>Gate</a> - инверсия состояния гейтов шагов паттерна, не изменяет сам паттерн, но заставляет секвенсор воспринимать состояния гейтов наоборот
+
+* <!---
+  x: 294
+  y: 277
+  slug: expr-power
+  type: labeled-socket
+  -->
+  <a name="inputs-expr-power" href='#inputs-expr-power'>X PWR</a> - аттенюация показателя степени, испульзуемого для построения кривой экспрессии
+
+* <!---
+  x: 294
+  y: 320
+  slug: expr-curve
+  type: labeled-socket
+  -->
+  <a name="inputs-expr-curve" href='#inputs-expr-curve'>X CRV</a> - аттенюация полярности прогиба кривых экспрессий
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: controls
+-->
+
+### Управление
+
+* <!---
+  x: 14
+  y: 277
+  slug: shift
+  type: knob-25
+  -->
+  <a name="controls-shift" href='#controls-shift'>Shift</a> - аттенюация сдвига паттерна по фазе
+
+* <!---
+  x: 49
+  y: 277
+  slug: len
+  type: knob-25
+  -->
+  <a name="controls-len" href='#controls-len'>LEN</a> - аттенюация продолжительности шагов паттерна
+
+* <!---
+  x: 85
+  y: 278
+  slug: qnt
+  type: labeled-led-switch
+  -->
+  <a name="controls-qnt" href='#controls-qnt'>QNT</a> - квантизация позиций шагов паттерна
+
+* <!---
+  x: 120
+  y: 278
+  slug: shift-left
+  type: labeled-led-switch
+  -->
+  <a name="controls-shift-left" href='#controls-shift-left'>Shift ←</a> - сдвиг паттерна на 1/8 влево
+
+* <!---
+  x: 190
+  y: 278
+  slug: shift-right
+  type: labeled-led-switch
+  -->
+  <a name="controls-shift-right" href='#controls-shift-right'>Shift →</a> - сдвиг паттерна на 1/8 вправо
+
+* <!---
+  x: 153
+  y: 277
+  slug: pattern-shift
+  type: knob-25
+  -->
+  <a name="controls-pattern-shift" href='#controls-pattern-shift'>Shift</a> - сдвиг паттерна по фазе (плавно)
+
+* <!---
+  x: 225
+  y: 278
+  slug: len-qnt
+  type: labeled-led-switch
+  -->
+  <a name="controls-len-qnt" href='#controls-len-qnt'>LEN</a> - квантизация длительностей шагов паттерна
+
+* <!---
+  x: 260
+  y: 278
+  slug: gate
+  type: labeled-led-switch
+  -->
+  <a name="controls-gate" href='#controls-gate'>Gate</a> - инверсия состояния гейтов шагов паттерна, не изменяет сам паттерн, но заставляет секвенсор воспринимать состояния гейтов наоборот
+
+* <!---
+  x: 85
+  y: 320
+  slug: rev
+  type: labeled-led-switch
+  -->
+  <a name="controls-rev" href='#controls-rev'>REV</a> - развернуть паттерн горизонтально
+
+* <!---
+  x: 153
+  y: 318
+  slug: muta
+  type: knob-27
+  -->
+  <a name="controls-muta" href='#controls-muta'>MUTA</a> - мутация паттерна
+
+* <!---
+  x: 225
+  y: 320
+  slug: flip
+  type: labeled-led-switch
+  -->
+  <a name="controls-flip" href='#controls-flip'>Flip</a> - перевернуть паттерн вертикально
+
+<!---
+end: legend-group
+-->
+
+<!---
 end: legend
 -->
 
