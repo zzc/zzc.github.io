@@ -15,6 +15,7 @@
             :widget='widget',
             :slug='makeGroupItemSlug(widget, group)',
             :blueprintRect='blueprintRect',
+            :blueprintOffset='blueprintOffset',
             :spaghettiEnabled='spaghettiEnabledFor === makeGroupItemSlug(widget, group)',
             @spaghettiRequest='onSpaghettiRequest(widget, group)',
             @spaghettiUnrequest='onSpaghettiUnrequest(widget, group)',
@@ -44,6 +45,10 @@ export default {
     blueprintRect: {
       type: Object,
       required: true
+    },
+    blueprintOffset: {
+      type: Number,
+      default: 0
     },
     widgetGroups: {
       type: Array,

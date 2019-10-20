@@ -27,6 +27,7 @@
             affix-legend.legend(
               :widgetGroups='item.items',
               :blueprintRect='blueprintRect',
+              :blueprintOffset='blueprintOffset',
               :spaghettiEnabledFor='spaghettiEnabledFor',
               @spaghettiRequest='onSpaghettiRequest',
               @spaghettiUnrequest='onSpaghettiUnrequest'
@@ -106,6 +107,12 @@ export default {
     },
     module () {
       return modules.find(module => module.slug === this.moduleSlug)
+    },
+    blueprintOffset () {
+      if (this.affixed.type !== 'blueprint') {
+        return 0;
+      }
+      return this.affixed.affixed.blueprintOffset || 0;
     }
   },
   methods: {

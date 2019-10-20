@@ -4,9 +4,12 @@
     img.blueprint-img(
       :src='blueprintUrl',
       ref='blueprint',
-      :class='{dimmed}'
+      :class='{dimmed}',
+      :style='offsetStyle'
     )
-    .previews
+    .previews(
+      :style='offsetStyle'
+    )
       template(v-for='group in widgetGroups')
         template(v-for='groupItem in group.items')
           nuxt-link.preview(
@@ -19,7 +22,11 @@
             @mouseenter.native='activateSpaghetti(widget, group)',
             @mouseleave.native='deactivateSpaghetti(widget, group)'
           )
-  .overflow-indicator(
+  .overflow-indicator.left(
+    v-if='blueprintOffset < 0',
+    :class='{dimmed}'
+  )
+  .overflow-indicator.right(
     v-if='overflowing',
     :class='{dimmed}'
   )
@@ -80,7 +87,7 @@ export default {
         const blueprintRect = this.$refs.blueprint.getBoundingClientRect()
         const overflowRect = this.$refs.overflow.getBoundingClientRect()
         this.scale = blueprintRect.height / 380
-        this.overflowing = blueprintRect.width > overflowRect.width
+        this.overflowing = (blueprintRect.width + this.blueprintOffset * this.scale - 1) > overflowRect.width
       }
       requestAnimationFrame(this.updateScale)
     },
@@ -111,7 +118,16 @@ export default {
     },
     blueprintStyle () {
       return {
-        ...this.blueprintCrop ? { width: `${this.blueprintCrop * this.scale}px`} : {}
+        ...(this.blueprintCrop || this.blueprintOffset) ? {
+          width: `${this.blueprintCrop * this.scale}px`
+        } : {}
+      }
+    },
+    offsetStyle () {
+      return {
+        ...this.blueprintOffset ? {
+          transform: `translateX(${this.blueprintOffset * this.scale}px)`
+        } : {}
       }
     }
   },
@@ -154,6 +170,11 @@ export default {
       background-repeat: no-repeat;
       background-position: center center;
       transition: opacity .2s ease;
+    }
+
+    &.left {
+      left: -10px;
+      right: auto;
     }
 
     &.dimmed {

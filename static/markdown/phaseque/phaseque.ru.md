@@ -425,10 +425,10 @@ slug: outputs
 * <!---
   x: 259
   y: 126
-  slug: phase
+  slug: pattern-phase
   type: labeled-socket
   -->
-  <a name="outputs-phase" href='#outputs-phase'>Phase</a> - текущая фаза секвенсора
+  <a name="outputs-pattern-phase" href='#outputs-pattern-phase'>Phase</a> - текущая фаза секвенсора
 
 * <!---
   x: 294
@@ -654,6 +654,292 @@ slug: controls
 <!---
 end: legend-group
 -->
+
+<!---
+end: legend
+-->
+
+<!---
+end: affixing
+-->
+
+<!---
+start: affixing
+affixed: blueprint
+blueprint: phaseque-blueprint.svg
+preview: phaseque.svg
+blueprint-offset: -317
+blueprint-crop: 265
+-->
+
+## Центральная секция
+
+<!---
+start: legend
+-->
+
+<!---
+start: legend-group
+slug: outputs
+-->
+
+### Выходы
+
+* <!---
+  x: 335
+  y: 320
+  slug: gate
+  type: simple-socket
+  -->
+  <a name="outputs-gate" href='#outputs-gate'>Gate</a> - выдаёт +10V, если текущий шаг активен
+
+* <!---
+  x: 369
+  y: 320
+  slug: value
+  type: simple-socket
+  -->
+  <a name="outputs-value" href='#outputs-value'>V (Value)</a> - выдаёт значение текущего шага (-2V -> +2V), если он активен, при отсутствии активных шагов сохраняет последнее значение
+
+* <!---
+  x: 403
+  y: 320
+  slug: shift
+  type: simple-socket
+  -->
+  <a name="outputs-shift" href='#outputs-shift'>Shift</a> - сообщает о смещении текущего шага относительно базовой сетки
+
+* <!---
+  x: 437
+  y: 320
+  slug: len
+  type: simple-socket
+  -->
+  <a name="outputs-len" href='#outputs-len'>LEN</a> - сообщает об аттенюации длительности текущего шага (положительное напряжение при удлинённых шагах, отрицательное при укороченных)
+
+* <!---
+  x: 471
+  y: 320
+  slug: expr-curve
+  type: simple-socket
+  -->
+  <a name="outputs-expr-curve" href='#outputs-expr-curve'>EXPR Curve</a> - точка на кривой экспрессии для текущего шага и фазы
+
+* <!---
+  x: 505
+  y: 320
+  slug: expr-curvature
+  type: simple-socket
+  -->
+  <a name="outputs-expr-curvature" href='#outputs-expr-curvature'>EXPR Curvature</a> - полярность прогиба кривой экспрессии текущего шага
+
+* <!---
+  x: 539
+  y: 320
+  slug: phase
+  type: simple-socket
+  -->
+  <a name="outputs-phase" href='#outputs-phase'>Phase</a> - фаза текущего шага (от 0 до 10V)
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: indicators
+-->
+
+### Индикация
+
+* <!---
+  x: 333
+  y: 50
+  slug: pattern-resolution
+  type: custom-rect
+  w: 233
+  h: 50
+  -->
+  <a name="indicators-pattern-resolution" href='#indicators-pattern-resolution'>Разрешение паттерна</a> - визуальное отображение фаз, на которые делится текущий паттерн. Активная фаза подсвечивается ярким цветом.
+
+* <!---
+  x: 333
+  y: 100
+  slug: pattern-steps
+  type: custom-rect
+  w: 233
+  h: 133
+  -->
+  <a name="indicators-pattern-steps" href='#indicators-pattern-steps'>Шаги паттерна</a> - отображение длительностей и позиций шагов текущего паттерна. Отключенные шаги отображаются тусклым цветом, активные шаги отображаются ярким цветом. Дополнительно этот дисплей отображает мутации шагов используя голубой цвет.
+
+* <!---
+  x: 333
+  y: 233
+  slug: step-expressions
+  type: custom-rect
+  w: 233
+  h: 50
+  -->
+  <a name="indicators-step-expressions" href='#indicators-step-expressions'>Кривые экспрессии</a> - форма кривых экспрессий шагов. Так же, как и для [шагов паттерна](#indicators-pattern-steps) голубой цвет используется для отображения мутаций.
+
+<!---
+end: legend-group
+-->
+
+<!---
+end: legend
+-->
+
+<!---
+end: affixing
+-->
+
+<!---
+start: affixing
+affixed: blueprint
+blueprint: phaseque-blueprint.svg
+preview: phaseque.svg
+blueprint-offset: -562
+blueprint-crop: 338
+-->
+
+## Регулировки параметров шагов и прыжки
+
+<!---
+start: legend
+-->
+
+<!---
+start: legend-group
+slug: controls
+-->
+
+### Управление
+
+* <!---
+  x: 610
+  y: 44
+  slug: values
+  type: custom-rect
+  w: 282
+  h: 37
+  -->
+  <a name="controls-values" href='#controls-values'>V (Value)</a> - значения шагов в диапазоне от -2V до +2V
+
+* <!---
+  x: 610
+  y: 78
+  slug: gates
+  type: custom-rect
+  w: 282
+  h: 32
+  -->
+  <a name="controls-gates" href='#controls-gates'>Gate</a> - состояния гейтов шагов (включен/выключен)
+
+* <!---
+  x: 610
+  y: 108
+  slug: shifts
+  type: custom-rect
+  w: 282
+  h: 32
+  -->
+  <a name="controls-shifts" href='#controls-shifts'>Shift</a> - сдвиги шагов по фазе
+
+* <!---
+  x: 610
+  y: 139
+  slug: lengths
+  type: custom-rect
+  w: 282
+  h: 32
+  -->
+  <a name="controls-lengths" href='#controls-lengths'>LEN</a> - аттенюация длительностей шагов
+
+* <!---
+  x: 610
+  y: 172
+  slug: expr-ins
+  type: custom-rect
+  w: 282
+  h: 32
+  -->
+  <a name="controls-expr-ins" href='#controls-expr-ins'>In</a> - значения начал кривых экспрессий
+
+* <!---
+  x: 610
+  y: 203
+  slug: expr-curves
+  type: custom-rect
+  w: 282
+  h: 35
+  -->
+  <a name="controls-expr-curves" href='#controls-expr-curves'>EXPR</a> - регулировка кривых экспрессий
+
+* <!---
+  x: 610
+  y: 236
+  slug: expr-outs
+  type: custom-rect
+  w: 282
+  h: 32
+  -->
+  <a name="controls-expr-outs" href='#controls-expr-outs'>Out</a> - значения концов кривых экспрессий
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: inputs
+-->
+
+### Входы
+
+* <!---
+  x: 610
+  y: 267
+  slug: jumps
+  type: custom-rect
+  w: 282
+  h: 33
+  -->
+  <a name="inputs-jumps" href='#inputs-jumps'>JMP</a> - прыжок к началу соответствующего шага
+
+* <!---
+  x: 579
+  y: 319
+  slug: rnd-jmp
+  type: labeled-socket
+  -->
+  <a name="inputs-rnd-jmp" href='#inputs-rnd-jmp'>RND</a> - прыжок к случайному шагу
+
+<!---
+end: legend-group
+-->
+
+<!---
+start: legend-group
+slug: outputs
+-->
+
+### Выходы
+
+* <!---
+  x: 610
+  y: 314
+  slug: gates
+  type: custom-rect
+  w: 281
+  h: 37
+  -->
+  <a name="outputs-gates" href='#outputs-gates'>Гейты</a> - персональные гейты для каждого из шагов
+
+<!---
+end: legend-group
+-->
+
 
 <!---
 end: legend

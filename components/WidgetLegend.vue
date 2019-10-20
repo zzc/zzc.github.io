@@ -44,6 +44,10 @@ export default {
       type: Object,
       required: true
     },
+    blueprintOffset: {
+      type: Number,
+      default: 0
+    },
     spaghettiEnabled: {
       type: Boolean,
       required: true
@@ -82,8 +86,8 @@ export default {
       const bpScale = this.blueprintRect.height / 380
       const hoverAreaRect = this.$refs.hoverArea.getBoundingClientRect()
       const hoverAreaMidY = hoverAreaRect.top + hoverAreaRect.height / 2
-      this.spaghetti.width = hoverAreaRect.left - this.blueprintRect.left - (bpScale * this.widget.options.x) - (bpScale * (widgetRect.width + widgetRect.x))
-      this.spaghetti.height = hoverAreaMidY - this.blueprintRect.top - (bpScale * this.widget.options.y) - (bpScale * (widgetRect.height / 2 + widgetRect.y))
+      this.spaghetti.width = hoverAreaRect.left - this.blueprintRect.left - (bpScale * (parseFloat(this.widget.options.x) + this.blueprintOffset)) - (bpScale * (parseFloat(widgetRect.width) + parseFloat(widgetRect.x)))
+      this.spaghetti.height = hoverAreaMidY - this.blueprintRect.top - (bpScale * parseFloat(this.widget.options.y)) - (bpScale * (parseFloat(widgetRect.height) / 2 + parseFloat(widgetRect.y)))
       this.animationId = requestAnimationFrame(this.updateSpaghetti)
     },
     cleanupAnimation () {
