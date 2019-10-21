@@ -10,7 +10,7 @@ start: simple
 
 > Phase-Driven Sequencer
 
-Phaseque is a sequencer initially developed with two ideas in mind - solve some problems related to classical sequencers and create something new. For example, it's a common situation when composer realizes that start of a sequence is not at 1st step of sequencer - in such case Phaseque allows to easily shift pattern to desired position. Apart from that it provide many onther interesting thing unusual for common sequencers.
+Phaseque is a sequencer initially developed with two ideas in mind - solve some problems related to classical sequencers and create something new. For example, it's a common situation when composer realizes that start of a sequence is not at 1st step of sequencer - in such case Phaseque allows to easily shift pattern to desired position. Apart from that it provide many onther interesting things which are unusual for common sequencers.
 
 ## Quickstart
 
@@ -56,7 +56,41 @@ Each of 32 patterns inside Phaseque has its own resolution (RESO), which is disp
 
 The incoming transport and pattern playback are not hard-coupled in Phaseque, its possible to disable [CLTCH](#controls-clutch) and pause pattern playback. Also [GATE](#outputs-gate) is disabled when there is no clutch. The [RESET](#controls-reset) button resets phase to starting position which can be adjusted with the [MANUAL](#controls-manual) encoder.
 
->This documentation is still under construction. Please, if you have any questions, feel free to create an Issue about it at [main repository of ZZC](https://github.com/zezic/ZZC/issues/new), this way you can help other people with similar questions. Also feel free to send a email to [zezic51@yandex.ru](mailto:zezic51@yandex.ru)
+## Pattern grid navigation
+
+<img align='middle' src='phaseque-pattern-grid-navigation.svg'/>
+
+Phaseque has memory of 32 patterns and many ways to switch and detect switches between these patterns. On the grid the non-empty patterns are having slight highlighting, current pattern highlighted stronger and the next *planned* pattern has bright stroke around its number (we will talk about *planned* patterns later).
+
+On the left from pattern grid the abosolute navigation section is located, at the bottom are inputs for relative navigation and on the right are outputs with information about pattern playback progress.
+
+### Absolute navigation
+
+<img align='middle' src='phaseque-pattern-grid-absolute-navigation.svg'/>
+
+The [V/12P](#inputs-v12p) input works similar to common V/OCT inputs but difference is that instead of musical notes there are pattern numbers. Each 1/12 of Volt equals 1 pattern. An impulse sent to the [GOTO](#inputs-goto) input will make sequencer switch to the pattern number which corresponds to voltage on [V/12P](#inputs-v12p) input.
+
+>When [V/12P](#inputs-v12p) input is not connected the sequencer will always switch to the 1st pattern when receiving pulse on [GOTO](#inputs-goto) input.
+
+Following these absolute navigation mechanics there are also the [WENT](#outputs-went) and [V/12P](#outputs-v12p) outputs which are signalling about pattern switching.
+
+>By using abosolute navigation inputs and outputs it's possible to connect multiple Phaseque instances with each other and sync their pattern navigation.
+
+### Relative navigation
+
+<img align='middle' src='phaseque-pattern-grid-relative-navigation.svg'/>
+
+All the relative navigation inputs are switching only between the non-empty patterns, e.g. ignoring the patterns without any changes made to them. The only exception is [SEQ](#inputs-seq) input.
+
+The [PREV](#inputs-prev) and [NEXT](#inputs-next) inputs will navigate to the higher or lower number of pattern. If there is no non-empty pattern in the desired direction they will go around.
+
+The [←](#inputs-left), [↓](#inputs-down), [↑](#inputs-up), [→](#inputs-right) are inputs for 2D navigation. Like the two inputs mentioned above they switch only to the nearest non-empty pattern in the corresponding direction. The area in which these inputs operate is divided into 2 squares and the right square is really an upper continuation of left square, so it's a 4x8 rectangle. The easiest way to get familiar with those controls is to fill all the patterns with some sequences (right click on Phaseque -> "Randomize All Patterns") and try sending the pulses to each of them (one by one).
+
+The [SEQ](#inputs-seq) input is for going to the *planned* pattern. Each pattern in the grid can have its successor, e.g. the pattern which will follow it when sequencer receives pulse on the [SEQ](#inputs-seq) input. The *planned* pattern can be choosen by right-clicking on the grid.
+
+[RND](#inputs-rnd) - switch to random non-empty pattern.
+
+[WAIT](#controls-wait) - the pattern navigation block. Useful to stop the sequencer walking over the patterns to eliminate unwanted corruption of them when editing the current pattern.
 
 <!---
 end: simple
