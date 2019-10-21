@@ -1,6 +1,9 @@
 <template lang='pug'>
 .blueprint(:style='blueprintStyle')
-  .overflow(ref='overflow')
+  .overflow(
+    ref='overflow',
+    :style='overflowStyle'
+  )
     img.blueprint-img(
       :src='blueprintUrl',
       ref='blueprint',
@@ -86,7 +89,19 @@ export default {
       if (this.$refs.blueprint) {
         const blueprintRect = this.$refs.blueprint.getBoundingClientRect()
         const overflowRect = this.$refs.overflow.getBoundingClientRect()
-        this.scale = blueprintRect.height / 380
+        let maxScaleX = 2
+        let maxScaleY = 2
+        let maxBPWidth = (window.innerWidth - 60 * 2) / 2
+        let maxBPHeight = window.innerHeight - 60 * 2
+        if (this.blueprintCrop) {
+          if (this.blueprintCrop * 2 > maxBPWidth) {
+            maxScaleX = maxBPWidth / (this.blueprintCrop * 2) * 2
+          }
+        }
+        if (380 * 2 > maxBPHeight) {
+          maxScaleY = maxBPHeight / (380 * 2) * 2
+        }
+        this.scale = Math.min(maxScaleX, maxScaleY)
         this.overflowing = (blueprintRect.width + this.blueprintOffset * this.scale - 1) > overflowRect.width
       }
       requestAnimationFrame(this.updateScale)
@@ -129,6 +144,13 @@ export default {
           transform: `translateX(${this.blueprintOffset * this.scale}px)`
         } : {}
       }
+    },
+    overflowStyle () {
+      return {
+        ...this.scale < 2 ? {
+          height: `${380 * this.scale}px`,
+        } : {}
+      }
     }
   },
   mounted () {
@@ -150,6 +172,8 @@ export default {
 
   .overflow {
     overflow: hidden;
+    height: calc(380px * 2);
+    max-height: calc(100vh - 120px);
   }
 
   .overflow-indicator {
@@ -185,11 +209,10 @@ export default {
   }
 
   .blueprint-img {
-    height: calc(380px * 2);
-    max-height: calc(100vh - 120px);
     flex-shrink: 0;
     display: block;
     transition: opacity .2s ease;
+    height: 100%;
 
     &.dimmed {
       opacity: .3;
