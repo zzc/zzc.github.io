@@ -89,7 +89,7 @@ Better to say that this mode is not a synchronization mode, but a tempo modulati
 > Let's make this abbreviation clear. "V/BPS" means "volts per beat per second". It's a bit confusing, but it hides pretty simple meaning - it's a number of beats in second. For example, when tempo is 120BPM we got 120 beats per minute, which equals 2 beats per second. So, when your clock is going at 120BPM you can expect positive 2V from [V/BPS output](#outputs-vbps). And when you applying some voltage to the [V/BPS input](#inputs-vbps) its added to the base BPM value of a main module generator.
 
 So, when you know what V/BPS means, you can use necessary voltage to adjust base BPM setting of a module. To use [V/BPS input](#inputs-vbps) as an absolute value the [BPM knob](#controls-bpm) should be turned down to zero.
-Note that negative V/BPS values are also supported, they are turns generator to go backwards and output reversed phase and reversed subimpulse pattern.
+Note that negative V/BPS values are also supported, they make generator to go backward and output reversed phase and reversed subimpulse pattern.
 
 ## Reverse
 
