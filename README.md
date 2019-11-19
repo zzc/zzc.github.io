@@ -9,7 +9,7 @@ Install dependencies
 yarn
 ```
 
-Serve with hot reload at localhost:3000
+Serve with hot reload at `localhost:3000`
 ```bash
 yarn dev
 ```
@@ -29,4 +29,4 @@ yarn run generate
 
 You must push dist to the `master` branch, because Github don't want to serve things for organizations from other branches/locations.
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org/guide).
