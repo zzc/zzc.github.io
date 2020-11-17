@@ -10,7 +10,8 @@
   section-simple(
     v-else-if='section.type === "simple"',
     :article='section.items',
-    :moduleSlug='moduleSlug'
+    :moduleSlug='moduleSlug',
+    :showButton='sectionIdx === 0'
   )
 </template>
 

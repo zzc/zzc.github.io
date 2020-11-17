@@ -100,6 +100,7 @@ export default {
       margin-bottom: 40px;
     }
   }
+
   @include tablet {
     margin-top: 60px;
     margin-left: -30px;
@@ -110,6 +111,11 @@ export default {
       padding-right: 30px;
       margin-bottom: 50px;
     }
+  }
+
+  & > * {
+    flex-grow: 1;
+    min-width: 0;
   }
 }
 </style>

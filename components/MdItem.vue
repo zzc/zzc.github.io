@@ -114,5 +114,18 @@ export default {
       font-size: 0.8em !important;
     }
   }
+
+  & > .md-quote,
+  & > .md-html {
+    table {
+      th, td {
+        padding: .25em 1em .25em 0;
+      }
+    }
+  }
+
+  hr {
+    margin-bottom: 3em;
+  }
 }
 </style>

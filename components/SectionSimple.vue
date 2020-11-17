@@ -5,7 +5,7 @@
       ttl(v-if='item.type === "heading"', :level='item.depth') {{ item.text }}
         store-link(
           slot='aside',
-          v-if='idx === 0',
+          v-if='idx === 0 && showButton',
           :moduleSlug='moduleSlug'
         )
       subttl.subtitle(v-else-if='item.type === "blockquote" && idx < 3') {{ item.items[0].text }}
@@ -29,6 +29,10 @@ export default {
     moduleSlug: {
       type: String,
       required: true
+    },
+    showButton: {
+      type: Boolean,
+      default: false
     }
   },
   components: {
