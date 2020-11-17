@@ -957,3 +957,39 @@ end: legend
 <!---
 end: affixing
 -->
+
+<!---
+start: simple
+-->
+
+<hr></hr>
+
+<h2 id='changelog'>Changelog</h2>
+
+### v1.1.3 (2020-11-17)
+
+##### New features:
+
+  * Exponential external CV mode (V/OCT), Phaseque now can be used as an oscillator
+  * BPM snapping for external CV
+  * Internal standalone clock
+
+##### Improvements:
+
+  * ~20% less CPU hungry
+
+> The next times were measured on AMD FX-8350:
+>
+> | Mode      |  v1.1.2   |  v1.1.3   |  v1.1.3 <small>(No outputs)</small>   |
+> |:----------|:----------|:----------|:--------------------------------------|
+> | Mono      |  ~0.38μs  |  ~0.30μs  |  ~0.20μs                              |
+> | Poly-8    |  ~0.52μs  |  ~0.39μs  |  ~0.23μs                              |
+> | Unison-16 |  ~0.73μ   |  ~0.53μs  |  ~0.25μs                              |
+
+##### Bugfixes:
+
+  * Potential fix for crashes on macOS hosts
+
+<!---
+end: simple
+-->
