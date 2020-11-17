@@ -32,8 +32,9 @@ You must push dist to the `master` branch, because Github don't want to serve th
 ```bash
 mv dist ../
 git checkout master
-cp ../dist/* ./
+cp -r ../dist/* ./
 git commit -a -m "Updated deployment."
+git checkout -
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
