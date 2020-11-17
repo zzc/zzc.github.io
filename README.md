@@ -30,7 +30,10 @@ yarn run generate
 You must push dist to the `master` branch, because Github don't want to serve things for organizations from other branches/locations:
 
 ```bash
-git subtree push --prefix dist origin master
+mv dist ../
+git checkout master
+cp ../dist/* ./
+git commit -a -m "Updated deployment."
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
