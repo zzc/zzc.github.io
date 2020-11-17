@@ -27,6 +27,10 @@ yarn run generate
 
 ## Notes
 
-You must push dist to the `master` branch, because Github don't want to serve things for organizations from other branches/locations.
+You must push dist to the `master` branch, because Github don't want to serve things for organizations from other branches/locations:
+
+```bash
+git subtree push --prefix dist origin master
+```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
