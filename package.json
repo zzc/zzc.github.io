@@ -26,7 +26,8 @@
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^10.1.0",
     "vue": "^2.6.10",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
