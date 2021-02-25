@@ -25,11 +25,7 @@ export default {
       return modules.find(module => module.slug === this.moduleSlug)
     },
     href () {
-      let url = 'https://vcvrack.com/plugins.html#ZZC'
-      if (this.module.price > 0) {
-        url += ` ${this.module.name}`
-      }
-      return url
+      return this.module.url || `https://library.vcvrack.com/ZZC/${this.module.librarySlug}`
     }
   }
 }
