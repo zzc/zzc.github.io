@@ -9,7 +9,7 @@ Install dependencies
 yarn
 ```
 
-Serve with hot reload at localhost:3000
+Serve with hot reload at `localhost:3000`
 ```bash
 yarn dev
 ```
@@ -37,4 +37,4 @@ git commit -a -m "Updated deployment."
 git checkout -
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org/guide).
